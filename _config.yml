@@ -21,9 +21,9 @@
 title: Magnet4Cardiac7t project website
 email: admin@magnet4cardiac7t.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Heart failure is a common disease with high mortality and is one of the most common causes of death.
+  Magnetic resonance imaging of the heart is an important diagnostic technique for functional diagnosis of heart failure and many other cardiac diseases. heart diseases. 
+  Cardiac ultrahigh-field magnetic resonance imaging (UHF MRI) at a field strength of 7 Tesla promises the highest physical sensitivity, the highest spatial resolution and completely new image contrasts.
 
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://magnet4cardiac7t.github.io/website/" # the base hostname & protocol for your site, e.g. http://example.com
