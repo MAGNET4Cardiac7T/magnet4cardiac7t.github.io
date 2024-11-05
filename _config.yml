@@ -25,7 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   Magnetic resonance imaging of the heart is an important diagnostic technique for functional diagnosis of heart failure and many other cardiac diseases. heart diseases. 
   Cardiac ultrahigh-field magnetic resonance imaging (UHF MRI) at a field strength of 7 Tesla promises the highest physical sensitivity, the highest spatial resolution and completely new image contrasts.
 
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/website" # the subpath of your site, e.g. /blog
 url: "https://magnet4cardiac7t.github.io/website/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
