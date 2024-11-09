@@ -4,5 +4,4 @@
 
 layout: default
 title: Magnet4Cardiac7t project website
-type: homepage
 ---
