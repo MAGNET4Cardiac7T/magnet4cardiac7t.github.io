@@ -39,7 +39,7 @@ classes: wide
 <div>
     {% for team_member in site.team_members %}
         <div style="flex-grow: 0; cursor: pointer" onclick="location.href='{{ team_member.url | relative_url }}';">
-            <img src={{team_member.img_location}} width="200px" height="200px">
+            <img src={{team_member.img_location | relative_url}} width="200px" height="200px">
             <p style="width:200px">{{team_member.name}}</p>
         </div>
     {% endfor %}
