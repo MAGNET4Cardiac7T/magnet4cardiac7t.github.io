@@ -5,6 +5,8 @@ main:
     url: /about/
   - title: "Team"
     url: /team/
+  - title: "Spring School 2025"
+    url: /spring_school_2025/
 #  - title: "Posts"
 #    url: /year-archive/
 #  - title: "Categories"
