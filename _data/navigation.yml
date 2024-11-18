@@ -20,3 +20,59 @@ main:
 #  - title: "External Link"
 #    url: https://google.com
 #    target: _blank
+
+sidebar-navigation:
+  - title: Main Pages
+    children:
+      - title: "About"
+        url: /about/
+      - title: "Team"
+        url: /team/
+      - title: "Spring School 2025"
+        url: /spring_school_2025
+      - title: "More Content"
+        url: /more_content
+  - title: News
+    children:
+      - title: "Our paper in ECML-PKDD 2024"
+        url: /our-paper-got-accepted-for-the-Research-track-2024/
+  - title: Resources
+    children:
+      - title: "Our Github"
+        url: https://github.com/MAGNET4Cardiac7T
+      - title: "MAGNET Python Package"
+        url: https://github.com/MAGNET4Cardiac7T/magnet-preview
+      - title: "More About Us"
+        url: https://www.informatik.uni-wuerzburg.de/datascience
+#  - title: Customization
+#    children:
+#      - title: "Configuration"
+#        url: /docs/configuration/
+#      - title: "Navigation"
+#        url: /docs/navigation/
+#      - title: "UI Text"
+#        url: /docs/ui-text/
+#      - title: "Authors"
+#        url: /docs/authors/
+#      - title: "Layouts"
+#        url: /docs/layouts/
+#
+#  - title: Content
+#    children:
+#      - title: "Working with Posts"
+#        url: /docs/posts/
+#      - title: "Working with Pages"
+#        url: /docs/pages/
+#      - title: "Working with Collections"
+#        url: /docs/collections/
+#      - title: "Helpers"
+#        url: /docs/helpers/
+#      - title: "Utility Classes"
+#        url: /docs/utility-classes/
+#
+#  - title: Extras
+#    children:
+#      - title: "Stylesheets"
+#        url: /docs/stylesheets/
+#      - title: "JavaScript"
+#        url: /docs/javascript/

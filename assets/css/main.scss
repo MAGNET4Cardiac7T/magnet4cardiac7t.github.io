@@ -7,15 +7,43 @@ search: false
 
 
 
-.spring-school-day div {
+.spring-school-day {
 
-  border: black 1px solid;
 
-  p {
-    margin-bottom: 0px;
-    margin-top: 0px;
+
+  .session-box {
+    margin-bottom: 16px;
+    background: lightblue;
   }
 
+  .session-title {
+    margin-left: 8px;
+    font-weight: bold;
+  }
+
+  .more-information-section {
+    font-weight: lighter;
+    background: #f39e9e;
+    border: white 1px solid;
+    border-radius: 0px 0px 6px 6px;
+  }
+
+
+  .coffee-break {
+    width: 24px;
+    margin-right: 8px;
+    vertical-align: text-top;
+  }
+}
+
+
+.site-logo img {
+  max-height: 90px !important;
+  width: 90px;
+}
+
+.masthead__inner-wrap {
+  padding : 4px !important;
 }
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
