@@ -1,48 +1,22 @@
 ---
-layout: home
+layout: single
 classes: wide
 sidebar:
     nav: sidebar-navigation
 ---
 
 <h1>Meet the Magnet Team</h1>
-<!--<div style="display: flex; flex-wrap: wrap; gap: 36px 36px">-->
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/1.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Prof. Dr Andreas Hotho</p>-->
-<!--    </div>-->
 
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/2.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Dr. Ing. Farzad Jabbarigargari</p>-->
-<!--    </div>-->
+<img src="{{'/assets/img/magnet_team.png' | relative_url}}">
 
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/3.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Dr. rer. nat. Maxim Terekhov</p>-->
-<!--    </div>-->
-
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/4.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Prof. Dr. rer. nat. et med. habil. Laura Schreiber MBA</p>-->
-<!--    </div>-->
-
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/5.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Dr. Ing. Anna Krause</p>-->
-<!--    </div>-->
-
-<!--    <div style="flex-grow: 0; cursor: pointer" onclick="location.href='/about';">-->
-<!--        <img src="/assets/img/6.png" width="200px" height="200px">-->
-<!--        <p style="width:200px">Msc. Andrzej Dulny</p>-->
-<!--    </div>-->
-<!--</div>-->
-
+<h2>Introduction</h2>
+<p style="margin-top: 12px">
+    Magnet4Cardiac7t is a collaborative effort from the Data Science Department at JMU Würzburg and Deutsches Zentrum für Herzinsuffizienz (DZHI)
+    at Uni-klinik Würzburg. Our team consists of leading experts in the field of Machine Learning/Data Science and Medicine.
+    To get to know more about the members of our team please see below.
+</p>
 <div>
-    {% for team_member in site.team_members %}
-        <div style="flex-grow: 0; cursor: pointer" onclick="location.href='{{ team_member.url | relative_url }}';">
-            <img src={{team_member.img_location | relative_url}} width="200px" height="200px">
-            <p style="width:200px">{{team_member.name}}</p>
-        </div>
-    {% endfor %}
+
+    {% include gallery other_collection=site.team_members %}
+
 </div>

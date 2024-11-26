@@ -1,21 +1,9 @@
 ---
 layout: single
 classes: wide
+title: Program Overview
 sidebar:
     nav: sidebar-navigation
-gallery:
-  - url: /spring_school/program_overview
-    image_path: /assets/img/overview.png
-    alt: "placeholder image 1"
-  - url: /spring_school/speakers
-    image_path: /assets/img/speakers.png
-    alt: "placeholder image 2"
-  - url: /spring_school/registration
-    image_path:  /assets/img/registration.png
-    alt: "placeholder image 3"
-  - url: /spring_school/posters
-    image_path:  /assets/img/posters.png
-    alt: "placeholder image 3"
 days:
     -   title: "Monday 7th April 2025"
         sessions:
@@ -152,22 +140,40 @@ days:
                 start_time: "18:00"
                 end_time: "22:00"
 
+
 ---
 
 
 
 <div>
+    <p>This is the general overview of the whole week of spring break. More information could be added here!</p>
+    
 
 
-    <h1>Spring School 2024 at JMU Würzburg</h1>
+    {% for day in page.days %}
+        <div class="spring-school-day">
+            <h2>{{day.title}}</h2>
+            {% for session in day.sessions%}
+                <div class="session-box" style="">
 
-    <img alt="ai spring school 2024 banner" src={{"/assets/img/spring_school_2024_banner.png" | relative_url}} width="100%" height="200px">
+                    <div class="session-title" style="">
+                        <span>{{session.start_time}} - {{session.end_time}}</span>
+                        <span style="margin-left: 12px">
 
-    <div style="margin-top: 24px">
-        <p>Maget4Cardiac7T already announces the 2025 Spring School on Physics Informed Neural Networks in Imaging and Medicine, to be held April 7-11, 2025 at the Comprehensive Heart Failure Center ( hashtag#CHFC ) in Würzburg, Germany. There is going to be coffee and free food for the participants.
-            Spring School Tentative Schedule for Spring School Workshops (to download the schedule click <a href="{{'/assets/img/spring_school_2025_schedule.png' | relative_url}}">here</a>) </p>
+                            {% if session.title == "Coffee Break" %}
+                                <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee.png' | relative_url}}">
+                            {% endif %}
 
-        {% include gallery %}
+                            {{session.title}}
+                        </span>
+                    </div>
 
-    </div>
+                    <div class="more-information-section" style="">
+                        <p style="margin-left: 8px">Add More information here like speaker details and venue location.</p>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% endfor %}
 </div>
+
