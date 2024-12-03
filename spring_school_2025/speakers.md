@@ -8,5 +8,3 @@ sidebar:
 
 
 {% include gallery other_collection=site.keynote_speakers %}
-
-Hey!
