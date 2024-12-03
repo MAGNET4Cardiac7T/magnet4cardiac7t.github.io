@@ -3,7 +3,7 @@ layout: single
 sidebar:
     - nav: sidebar-navigation
 title: Tobias Schumacher
-image_path: /assets/img/tobias.png
+image_path: /assets/img/tobias.jpeg
 affiliation: Technische Universität Berlin
 university: Technische Universität Berlin
 topic: Physics Informed Neural Networks for Predicting Physical Systems Behavior
