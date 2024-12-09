@@ -1,0 +1,12 @@
+<div class="spring-school-grid-menu">
+    {% for menu_item in page.menu %}
+    <a href="{{menu_item.url | relative_url }}">
+        <div class="spring-school-grid-menu-card">
+            <p>{{menu_item.name}}</p>
+            <span>&#8594;</span>
+        </div>
+    </a>
+    {% endfor %}
+
+
+</div>
