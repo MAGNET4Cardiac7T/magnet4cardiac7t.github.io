@@ -16,16 +16,10 @@ menu:
 
 
 # Spring School 2024 at JMU Würzburg
-<div>
-    <h1>Spring School 2024 at JMU Würzburg</h1>
-    <h2>Spring School 2024 at JMU Würzburg</h2>
-    <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_2024_banner.png" | relative_url}}' width="100%" height="200px">
 
-    <div style="margin-top: 24px">
-        <p>Maget4Cardiac7T already announces the 2025 Spring School on Physics Informed Neural Networks in Imaging and Medicine, to be held April 7-11, 2025 at the Comprehensive Heart Failure Center ( hashtag#CHFC ) in Würzburg, Germany. There is going to be coffee and free food for the participants.
-            Spring School Tentative Schedule for Spring School Workshops (to download the schedule click <a href="{{'/assets/img/spring_school_2025_schedule.png' | relative_url}}">here</a>) </p>
+<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_2024_banner.png" | relative_url}}' width="100%" height="200px">
 
-        {% include spring_school_grid_menu.html %}
+Maget4Cardiac7T already announces the 2025 Spring School on Physics Informed Neural Networks in Imaging and Medicine, to be held April 7-11, 2025 at the Comprehensive Heart Failure Center ( hashtag#CHFC ) in Würzburg, Germany. There is going to be coffee and free food for the participants.
+Spring School Tentative Schedule for Spring School Workshops (to download the schedule click <a href="{{'/assets/img/spring_school_2025_schedule.png' | relative_url}}">here</a>)
 
-    </div>
-</div>
+{% include spring_school_grid_menu.html %}
