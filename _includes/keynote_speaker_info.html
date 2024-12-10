@@ -13,6 +13,9 @@
 
 </div>
 
-
-<h2>Abstract</h2>
-<p>{{page.abstract}}</p>
+<div>
+    {% if page.abstract %}
+    <h2>Abstract</h2>
+    <p>{{page.abstract}}</p>
+    {% endif %}
+</div>

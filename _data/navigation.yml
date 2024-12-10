@@ -40,8 +40,10 @@ sidebar-navigation:
         url: https://github.com/MAGNET4Cardiac7T
       - title: "MAGNET Python Package"
         url: https://github.com/MAGNET4Cardiac7T/magnet-preview
-      - title: "More About Us"
+      - title: "AI Team"
         url: https://www.informatik.uni-wuerzburg.de/datascience
+      - title: "Our Colleagues"
+        url: https://www.ukw.de/behandlungszentren/dzhi/startseite/
   - title: News
     children:
       - title: "Our paper in ECML-PKDD 2024"
