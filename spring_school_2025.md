@@ -12,10 +12,8 @@ menu:
     name: Registration
   - url: /spring_school_2025/posters
     name: Posters
+title: Spring School 2024 at JMU Würzburg
 ---
-
-
-# Spring School 2024 at JMU Würzburg
 
 <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_2024_banner.png" | relative_url}}' width="100%" height="200px">
 
