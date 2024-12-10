@@ -1,5 +1,6 @@
 ---
 layout: single
+classes: wide
 sidebar:
     nav: sidebar-navigation
 ---
