@@ -5,6 +5,7 @@ for(let i = 0; i < nav_links.length; i++){
     let label = nav_links[i].innerHTML;
     if (label === 'Spring School 2025'){
         nav_links[i].style.fontWeight =  "bold";
+        nav_links[i].style.color =  "black";
     }
 }
 
