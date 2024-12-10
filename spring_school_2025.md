@@ -15,9 +15,10 @@ menu:
 ---
 
 
-
+# Spring School 2024 at JMU Würzburg
 <div>
     <h1>Spring School 2024 at JMU Würzburg</h1>
+    <h2>Spring School 2024 at JMU Würzburg</h2>
     <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_2024_banner.png" | relative_url}}' width="100%" height="200px">
 
     <div style="margin-top: 24px">
