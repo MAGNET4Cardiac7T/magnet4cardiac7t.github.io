@@ -17,7 +17,6 @@ menu:
   - url: /spring_school_2025/posters
     name: Posters
 title: Spring School 2025
-link: True
 ---
 
 <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_banner.svg" | relative_url}}' width="100%">
