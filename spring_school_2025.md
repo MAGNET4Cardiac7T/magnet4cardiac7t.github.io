@@ -36,7 +36,3 @@ Spring School Tentative Schedule for Spring School Workshops (to download the sc
 
 
 *All deadlines expire on 23:59 AoE (UTC-12).
-
-## Sponsors and Affiliations
-
-<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">

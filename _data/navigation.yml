@@ -32,8 +32,6 @@ sidebar-navigation:
         url: /team/
       - title: "Spring School 2025"
         url: /spring_school_2025/
-      - title: "More Content"
-        url: /more_content/
   - title: Resources
     children:
       - title: "Our Github"
@@ -45,6 +43,7 @@ sidebar-navigation:
       - title: "Domain Knowledge Team"
         url: https://www.ukw.de/behandlungszentren/dzhi/startseite/
   - title: News
+    url: /news/
     children:
       - title: "Our paper in ECML-PKDD 2024"
         url: /our-paper-got-accepted-for-the-Research-track-2024/
