@@ -4,12 +4,12 @@ classes: wide
 sidebar:
     nav: sidebar-navigation
 menu:
-  - url: /spring_school_2025/registration
-    name: Registration
-  - url: /spring_school_2025/important_dates
-    name: Important Dates
   - url: /spring_school_2025/about_spring_school
     name: About Spring School
+  - url: /spring_school_2025/important_dates
+    name: Important Dates
+  - url: /spring_school_2025/registration
+    name: Registration
   - url: /spring_school_2025/program_overview
     name: Program Overview
   - url: /spring_school_2025/speakers
