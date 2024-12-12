@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: magnet
 classes: wide
 sidebar:
     nav: sidebar-navigation

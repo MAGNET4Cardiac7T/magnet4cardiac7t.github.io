@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: magnet
 classes: wide
 title: About Spring School
 sidebar:
@@ -16,8 +16,3 @@ The Spring School on Physics Informed Neural Networks in Imaging and Medicine is
 The spring school will feature lectures and hands-on sessions on the topics of *physics-informed machine learning*, *medical imaging* and *applications of AI in medicine*.
 
 We welcome international students interested in those topics to register for the spring school!
-
-
-## Sponsors and Affiliations
-
-<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">

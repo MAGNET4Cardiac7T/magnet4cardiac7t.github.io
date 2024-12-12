@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: magnet
 classes: wide
 title: Program Overview
 sidebar:
@@ -12,8 +12,3 @@ sidebar:
     <span>For detailed schedule of Spring School 2025 please </span><a href="{{'/spring_school_2025/detailed_program_schedule' | relative_url}}">click here.</a>
 
 </div>
-
-
-## Sponsors and Affiliations
-
-<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">

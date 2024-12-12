@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: magnet
 classes: wide
 title: Venue
 sidebar:
@@ -13,8 +13,3 @@ the location with public transportation take a look at the following map.
 
 ### Map
 <img src="{{'/assets/img/spring_school/lageplan_A15_DZHI.png' | relative_url}}" alt="spring school timetable image" width="100%"/>
-
-
-## Sponsors and Affiliations
-
-<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">
