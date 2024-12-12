@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: magnet
 classes: wide
 sidebar:
     nav: sidebar-navigation
