@@ -22,6 +22,6 @@ Spring School Tentative Schedule for Spring School Workshops (to download the sc
 
 {% include spring_school_grid_menu.html %}
 
-## Our sponsors and affiliations
+## Sponsors and Affiliations
 
 <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">
