@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: magnet
 classes: wide
 title: Keynote Speakers
 sidebar:
