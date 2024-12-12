@@ -7,11 +7,10 @@ sidebar:
 ---
 
 
-| **Announcement**               | tba             |
 | **Registration Opens**         | tba             |
 | **Registration Ends**          | tba             |
-| **Notification of Acceptance** | tba             |
 | **Poster Submission**          | tba             |
+| **Notification of Acceptance** | tba             |
 | **Spring School**              | April 7-11, 2025|
 
 
