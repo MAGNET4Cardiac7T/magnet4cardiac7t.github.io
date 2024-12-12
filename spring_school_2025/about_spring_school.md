@@ -17,3 +17,7 @@ The spring school will feature lectures and hands-on sessions on the topics of *
 
 We welcome international students interested in those topics to register for the spring school!
 
+
+## Sponsors and Affiliations
+
+<img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_sponsors.svg" | relative_url}}' width="100%">
