@@ -6,8 +6,8 @@ sidebar:
 menu:
   - url: /spring_school_2025/about_spring_school
     name: About Spring School
-  - url: /spring_school_2025/important_dates
-    name: Important Dates
+  - url: /spring_school_2025/venue
+    name: Venue
   - url: /spring_school_2025/registration
     name: Registration
   - url: /spring_school_2025/program_overview
@@ -25,6 +25,17 @@ Maget4Cardiac7T already announces the 2025 Spring School on Physics Informed Neu
 Spring School Tentative Schedule for Spring School Workshops (to download the schedule click <a href="{{'/assets/img/spring_school_2025_schedule.png' | relative_url}}">here</a>)
 
 {% include spring_school_grid_menu.html %}
+
+## Important Dates
+
+| **Registration Opens**         | tba             |
+| **Registration Ends**          | tba             |
+| **Poster Submission**          | tba             |
+| **Notification of Acceptance** | tba             |
+| **Spring School**              | April 7-11, 2025|
+
+
+*All deadlines expire on 23:59 AoE (UTC-12).
 
 ## Sponsors and Affiliations
 
