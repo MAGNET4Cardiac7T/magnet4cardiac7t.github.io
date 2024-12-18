@@ -4,6 +4,7 @@ classes: wide
 title: About Spring School
 sidebar:
     nav: sidebar-navigation
+breadcrumbs: true
 ---
 
 The Spring School on Physics Informed Neural Networks in Imaging and Medicine is aimed at Master Degree Students and early PhD Students in the fields of:

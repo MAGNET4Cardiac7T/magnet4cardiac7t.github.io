@@ -4,6 +4,7 @@ classes: wide
 title: Venue
 sidebar:
     nav: sidebar-navigation
+breadcrumbs: true
 ---
 
 The Spring School will take place in the **Comprehensive Heart Failure Center (CHCF)** at the University Hospital Würzburg (UKW), Germany.
