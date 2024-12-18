@@ -4,7 +4,7 @@ main:
   - title: "About"
     url: /about/
   - title: "Team"
-    url: /team/
+    url: /team_members/
   - title: "News"
     url: /news/
   - title: "Spring School 2025"
@@ -29,7 +29,7 @@ sidebar-navigation:
       - title: "About"
         url: /about/
       - title: "Team"
-        url: /team/
+        url: /team_members/
       - title: "Spring School 2025"
         url: /spring_school_2025/
   - title: Resources
