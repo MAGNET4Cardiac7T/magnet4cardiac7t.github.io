@@ -12,3 +12,7 @@ sidebar:
     <span>For detailed schedule of Spring School 2025 please </span><a href="{{'/spring_school_2025/detailed_program_schedule' | relative_url}}">click here.</a>
 
 </div>
+
+
+  <full-calendar shadow style="font-weight: normal; font-size: 12px"/>
+  

@@ -22,3 +22,20 @@ for(let i = 0; i < side_bar_nav_links.length; i++) {
         side_bar_nav_links[i].style.textDecoration = "none";
     };
 }
+
+
+// req
+let fullCalendarElement = document.querySelector('full-calendar')
+fullCalendarElement.options = {
+    initialView: 'timeGridWeek',
+    headerToolbar: {
+        left: 'prev,next today',
+        center: 'title',
+        right: 'dayGridMonth,dayGridWeek,timeGridDay'
+      },
+    events: [{
+        title: 'My name is khan',
+        start: '2024-12-18T16:00:00',
+        end: '2024-12-18T19:00:00'
+    }]
+}
