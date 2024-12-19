@@ -24,7 +24,8 @@ main:
 #    target: _blank
 
 sidebar-navigation:
-  - title: Main Pages
+  - title: Main
+    url: /
     children:
       - title: "About"
         url: /about/
