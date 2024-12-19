@@ -20,6 +20,9 @@ breadcrumbs: true
     "headerToolbar": {
         "end":""
     },
+    "dayHeaderFormat" : {
+        "weekday": "long"
+    },
     "weekends": false,
     "allDaySlot": false,
     "eventMinHeight": "15",
