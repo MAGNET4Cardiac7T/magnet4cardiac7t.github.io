@@ -1,5 +1,6 @@
 ---
-layout: single
+layout: magnet
+classes: wide
 sidebar:
     - nav: sidebar-navigation
 title: Prof. Dr. rer. nat. Tobias Wech

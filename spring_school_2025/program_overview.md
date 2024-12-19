@@ -13,17 +13,22 @@ breadcrumbs: true
 </div>
 
 
-<full-calendar shadow style="font-weight: normal; font-size: 13px; color: black" options='{
+<full-calendar shadow style="font-weight: normal; font-size: 14px; color: black;" options='{
     "initialView": "timeGridWeek",
     "initialDate": "{{site.data.spring.days[0].date}}",
     "scrollTime": "09:00:00",
     "headerToolbar": {
         "end":""
     },
+    "weekends": false,
+    "allDaySlot": false,
     "eventMinHeight": "15",
-    "slotDuration": "00:15:00",
+    "slotDuration": "00:30:00",
+    "slotMinTime": "09:00:00",
+    "slotMaxTime": "22:00:00",
     "slotLabelInterval": "01:00",
     "eventTextColor": "black",
+    "contentHeight": "auto",
     "events": [
         {% for day in site.data.spring.days %}
             {% assign first_day = forloop.first %}
