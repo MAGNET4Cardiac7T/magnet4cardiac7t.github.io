@@ -1,6 +1,7 @@
 ---
 layout: magnet
 classes: wide
+breadcrumbs: true
 sidebar:
     nav: sidebar-navigation
 ---

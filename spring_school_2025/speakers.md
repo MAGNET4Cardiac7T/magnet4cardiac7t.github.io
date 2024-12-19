@@ -1,7 +1,7 @@
 ---
 layout: magnet
 classes: wide
-title: Keynote Speakers
+title: Speakers
 sidebar:
     nav: sidebar-navigation
 breadcrumbs: true

@@ -1,11 +1,11 @@
 ---
 layout: magnet
 classes: wide
+breadcrumbs: true
 sidebar:
     nav: sidebar-navigation
+title: Team Members
 ---
-
-<h1>Meet the Magnet Team</h1>
 
 <img src="{{'/assets/img/magnet_team.png' | relative_url}}">
 

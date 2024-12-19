@@ -5,8 +5,8 @@ main:
     url: /about/
   - title: "Team"
     url: /team_members/
-  - title: "News"
-    url: /news/
+  - title: "Blog"
+    url: /blog/
   - title: "Spring School 2025"
     url: /spring_school_2025/
 #  - title: "Posts"
@@ -42,8 +42,8 @@ sidebar-navigation:
         url: https://www.informatik.uni-wuerzburg.de/datascience
       - title: "Domain Knowledge Team"
         url: https://www.ukw.de/behandlungszentren/dzhi/startseite/
-  - title: News
-    url: /news/
+  - title: Blog
+    url: /blog/
     children:
       - title: "Our paper in ECML-PKDD 2024"
         url: /our-paper-got-accepted-for-the-Research-track-2024/
