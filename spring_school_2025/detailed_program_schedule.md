@@ -1,7 +1,7 @@
 ---
 layout: magnet
 classes: wide
-title: Program Overview
+title: Detailed Program
 sidebar:
     nav: sidebar-navigation
 breadcrumbs: true
