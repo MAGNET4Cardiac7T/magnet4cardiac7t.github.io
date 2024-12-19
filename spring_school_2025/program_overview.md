@@ -12,8 +12,9 @@ breadcrumbs: true
 <span>For detailed schedule of Spring School 2025 please </span><a href="{{'/spring_school_2025/detailed_program_schedule' | relative_url}}">click here.</a>
 </div>
 
+<div style="width: 1100px">
 
-<full-calendar shadow style="font-weight: normal; font-size: 14px; color: black;" options='{
+<full-calendar shadow style="font-weight: normal; font-size: 16px; color: black;" options='{
     "initialView": "timeGridWeek",
     "initialDate": "{{site.data.spring.days[0].date}}",
     "scrollTime": "09:00:00",
@@ -54,4 +55,5 @@ breadcrumbs: true
         {% endfor %}
     ]
     }'></full-calendar>
-  
+
+</div>
