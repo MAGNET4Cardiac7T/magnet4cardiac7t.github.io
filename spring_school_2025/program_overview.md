@@ -12,8 +12,6 @@ breadcrumbs: true
 <span>For detailed schedule of Spring School 2025 please </span><a href="{{'/spring_school_2025/detailed_program_schedule' | relative_url}}">click here.</a>
 </div>
 
-<div style="width: 1100px">
-
 <full-calendar shadow style="font-weight: normal; font-size: 16px; color: black;" options='{
     "initialView": "timeGridWeek",
     "initialDate": "{{site.data.spring.days[0].date}}",
@@ -27,7 +25,7 @@ breadcrumbs: true
     "weekends": false,
     "allDaySlot": false,
     "eventMinHeight": "15",
-    "slotDuration": "00:30:00",
+    "slotDuration": "00:15:00",
     "slotMinTime": "09:00:00",
     "slotMaxTime": "22:00:00",
     "slotLabelInterval": "01:00",
@@ -55,5 +53,3 @@ breadcrumbs: true
         {% endfor %}
     ]
     }'></full-calendar>
-
-</div>
