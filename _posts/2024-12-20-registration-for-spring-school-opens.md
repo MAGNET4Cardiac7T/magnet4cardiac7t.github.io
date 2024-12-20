@@ -12,7 +12,7 @@ We are happy to announce that the registration for our spring school to be held 
 
 ## Spring School
 
-The Spring School on Physics Informed Neural Networks in Imaging and Medicine is aimed at (but not limited to) Master Degree Students and early PhD Students in the fields of:
+The Spring School on *Physics Informed Machine Learning for Medical Sciences* is aimed at (but not limited to) Master Degree Students and early PhD Students in the fields of:
 
 - Computer Science
 - Deep Learning/AI/Machine Learning
@@ -26,4 +26,4 @@ The spring school will feature lectures and hands-on sessions on the topics of *
 
 We welcome international students interested in these topics to register for the spring school. The event will be held from April 7-11, 2025, at the [Comprehensive Heart Failure Center (CHFC)](/spring_school_2025/venue) in Würzburg, Germany. There will be coffee and free food for the participants.
 
-Don't miss this opportunity to learn from experts in the field and network with peers. [Register now](/spring_school_2025/registration) to secure your spot!
+Don't miss this opportunity to learn from [experts in the field](/spring_school_2025/speakers) and network with peers. [Register now](/spring_school_2025/registration) to secure your spot!

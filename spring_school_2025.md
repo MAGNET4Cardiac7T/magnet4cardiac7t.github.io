@@ -4,12 +4,12 @@ classes: wide
 sidebar:
     nav: sidebar-navigation
 menu:
-  - url: /spring_school_2025/about_spring_school
-    name: About Spring School
-  - url: /spring_school_2025/venue
-    name: Venue
   - url: /spring_school_2025/registration
     name: Registration
+  - url: /spring_school_2025/venue
+    name: Venue
+  - url: /spring_school_2025/accommodation
+    name: Accommodation
   - url: /spring_school_2025/program_overview
     name: Program Overview
   - url: /spring_school_2025/speakers
@@ -21,10 +21,29 @@ title: Spring School 2025
 
 <img alt="ai spring school 2024 banner" src='{{"/assets/img/spring_school_banner.svg" | relative_url}}' width="100%">
 
-Maget4Cardiac7T already announces the 2025 Spring School on Physics Informed Neural Networks in Imaging and Medicine, to be held April 7-11, 2025 at the Comprehensive Heart Failure Center ( hashtag#CHFC ) in Würzburg, Germany. There is going to be coffee and free food for the participants.
-Spring School Tentative Schedule for Spring School Workshops (to download the schedule click <a href="{{'/assets/img/spring_school_2025_schedule.png' | relative_url}}">here</a>)
+We are happy to announce the 2025 Spring School on *Physics Informed Machine Learning for Medical Sciences*, to be held April 7-11, 2025 in Würzburg, Germany. 
+
+The spring school will take place in person (no online participation is possible) at the [Comprehensive Heart Failure Center (CHFC)](/spring_school_2025/venue).
+
+Attendance is free for participants of all levels. Coffee breaks and lunch breaks are included.
 
 {% include spring_school_grid_menu.html %}
+
+## About Spring School
+The Spring School on *Physics Informed Machine Learning for Medical Sciences* is aimed at Master Degree Students and early PhD Students in the fields of:
+
+- Computer Science
+- Deep Learning/AI/Machine Learning
+- Mathematics
+- Engineering (Medical, Electrical, ...)
+- Physics
+- Medicine
+- Bioinformatics
+
+The spring school will feature lectures and hands-on sessions on the topics of *physics-informed machine learning*, *medical imaging* and *applications of AI in medicine*.
+
+We welcome international students interested in those topics to [register](/spring_school_2025/registration.md) for the spring school!
+
 
 ## Important Dates
 
