@@ -24,7 +24,7 @@ sidebar:
                         </span>
                     </div>
                     <div class="more-information-section" style="">
-                        <p style="margin-left: 8px">Add More information here like speaker details and venue location.</p>
+                        <p style="margin-left: 8px">Details of each session will be announced later</p>
                     </div>
                 </div>
             {% endfor %}

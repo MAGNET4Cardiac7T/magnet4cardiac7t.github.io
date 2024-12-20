@@ -17,10 +17,12 @@ address:
 
 ## About me
 I have been part of the DMIR Research Group since early 2021, after I received my master's degree in Mathematics at the University of Würzburg.
-Currently pursuing research at Prof. Hotho's research group, I am passionate about leveraging machine learning techniques to predict the evolution of physical systems,
+Currently pursuing research at Prof. Hotho's research group.
+
+## Research interests
+I am passionate about leveraging machine learning techniques to predict the evolution of physical systems,
 extract the physical equations governing the system, and enhance simulation methods with machine learning. My work lies at the intersection of machine learning and physics,
 with a particular emphasis on developing and applying novel deep learning methods to solve complex problems in the field of dynamical systems using:
-
 
 
 - Physics-Informed Neural Networks (PINNs)

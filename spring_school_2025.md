@@ -41,6 +41,7 @@ The Spring School on *Physics Informed Machine Learning for Medical Sciences* is
 - Bioinformatics
 
 The spring school will feature lectures and hands-on sessions on the topics of *physics-informed machine learning*, *medical imaging* and *applications of AI in medicine*.
+Additionally the spring school will also feature a *hackathon*, the theme of which will be announced during the spring school.
 
 We welcome international students interested in those topics to [register](/spring_school_2025/registration.md) for the spring school!
 
@@ -52,7 +53,6 @@ We welcome international students interested in those topics to [register](/spri
 | **Notification of Acceptance** | February 24, 2025 |
 | **Poster Submission**          | March 23, 2025    |
 | **Spring School**              | April 7-11, 2025  |
-
 
 *All deadlines expire on 23:59 AoE (UTC-12).
 

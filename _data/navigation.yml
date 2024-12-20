@@ -3,6 +3,8 @@ main:
 #    url: /quick-start-guide/
   - title: "About"
     url: /about/
+  - title: "Contact"
+    url: /contact/
   - title: "Team"
     url: /team_members/
   - title: "Blog"
@@ -33,6 +35,8 @@ sidebar-navigation:
         url: /team_members/
       - title: "Spring School 2025"
         url: /spring_school_2025/
+      - title: "Contact"
+        url: /contact/
   - title: Resources
     children:
       - title: "Our Github"

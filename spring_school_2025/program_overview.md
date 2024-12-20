@@ -6,10 +6,12 @@ sidebar:
     nav: sidebar-navigation
 ---
 
-<div style="margin-bottom: 12px">
-<p>This is the general overview of the whole week of spring break. More information could be added here!</p>
-<span>For detailed schedule of Spring School 2025 please </span><a href="{{'/spring_school_2025/detailed_program_schedule' | relative_url}}">click here.</a>
-</div>
+This is an overview of the spring school schedule, including all the session, breaks and evening program.
+
+A detailed schedule with the description of each session will be provided at a later date.
+
+Please also note that the schedule is preliminary and subject to change.
+
 
 <full-calendar shadow style="font-weight: normal; font-size: 16px; color: black;" options='{
     "initialView": "timeGridWeek",
@@ -52,3 +54,25 @@ sidebar:
         {% endfor %}
     ]
     }'></full-calendar>
+
+## Legend
+<div style="display: flex; align-items: center;">
+    <div style="height: 40px; width: 40px; background-color: #d7e4bc; margin-right: 10px; margin-bottom: 10px"></div>
+    <span>Keynotes</span>
+</div>
+<div style="display: flex; align-items: center;">
+    <div style="height: 40px; width: 40px; background-color: #a5b6ca; margin-right: 10px; margin-bottom: 10px"></div>
+    <span>Lectures</span>
+</div>
+<div style="display: flex; align-items: center;">
+    <div style="height: 40px; width: 40px; background-color: #ffe698; margin-right: 10px; margin-bottom: 10px"></div>
+    <span>Hands-on sessions</span>
+</div>
+<div style="display: flex; align-items: center;">
+    <div style="height: 40px; width: 40px; background-color: #fbc08f; margin-right: 10px; margin-bottom: 10px"></div>
+    <span>Special sessions</span>
+</div>
+<div style="display: flex; align-items: center;">
+    <div style="height: 40px; width: 40px; background-color: #d9d9d8; margin-right: 10px; margin-bottom: 10px"></div>
+    <span>Breaks and Evening Program</span>
+</div>
