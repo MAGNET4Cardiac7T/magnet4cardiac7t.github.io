@@ -1,17 +1,14 @@
 ---
-layout: magnet
+layout: single
 classes: wide
-title: Dr. Ing. Farzad Jabbarigargari
-image_path: /assets/img/2.png
+title: Prof. Dr. rer. nat. et med. habil. Laura Schreiber MBA
+image_path: /assets/img/4.png
 sidebar:
     - nav: sidebar-navigation
 email: andrzej.dulny[at]uni-wuerzburg.de
 phone: (+49 931)  31 - 81316
 address: Chair of Data Science (Informatik X) University of Würzburg Campus Hubland Nord Emil-Fischer-Straße 50 97074 Würzburg Germany
-breadcrumbs: true
-
 ---
-
 
 
 {% include team_member_basic_info.html %}

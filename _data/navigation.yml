@@ -46,12 +46,18 @@ sidebar-navigation:
   - title: Blog
     url: /blog/
     children:
+      - title: "Registration for Spring School 2025"
+        url: /registration-for-spring-school-opens/
+      - title: "Spring School Team"
+        url: /student-assistant-for-spring-school/
+      - title: "A new web developer"
+        url: /we-have-a-new-web-developer/
+      - title: "Paper submitted to the ISMRM"
+        url: /paper-submitted-at-ismrm/
       - title: "Our paper in ECML-PKDD 2024"
         url: /our-paper-got-accepted-for-the-Research-track-2024/
-      - title: "Dr. Farzad submitted paper to ISMRM conference"
-        url: /farzad-published-paper/
-      - title: "A new team member"
-        url: /we-have-a-new-team-member/
+      - title: "Compute resources at FAU HPC"
+        url: /compute-resources-at-fau-hpc-granted/
 
 #  - title: Customization
 #    children:

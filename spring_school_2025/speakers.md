@@ -1,10 +1,9 @@
 ---
-layout: magnet
+layout: single
 classes: wide
 title: Speakers
 sidebar:
     nav: sidebar-navigation
-breadcrumbs: true
 ---
 
 

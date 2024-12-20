@@ -1,10 +1,9 @@
 ---
-layout: magnet
+layout: single
 classes: wide
 title: Detailed Program
 sidebar:
     nav: sidebar-navigation
-breadcrumbs: true
 ---
 
 

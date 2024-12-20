@@ -1,10 +1,9 @@
 ---
-layout: magnet
+layout: single
 classes: wide
 title: Program Overview
 sidebar:
     nav: sidebar-navigation
-breadcrumbs: true
 ---
 
 <div style="margin-bottom: 12px">

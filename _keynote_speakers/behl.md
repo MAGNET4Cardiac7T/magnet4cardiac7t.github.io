@@ -1,8 +1,7 @@
 ---
-layout: magnet
+layout: single
 classes: wide
 permalink: /spring_school_2025/speakers/nicolas_behl
-breadcrumbs: true
 sidebar:
     - nav: sidebar-navigation
 title: Dr. Nicolas Behl

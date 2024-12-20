@@ -1,8 +1,7 @@
 ---
-layout: magnet
+layout: single
 classes: wide
 permalink: /spring_school_2025/speakers/amedeo_chiribiri
-breadcrumbs: true
 sidebar:
     - nav: sidebar-navigation
 title: Prof. Dr. Amedeo Chiribiri
