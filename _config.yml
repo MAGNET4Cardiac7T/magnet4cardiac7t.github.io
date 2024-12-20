@@ -48,6 +48,13 @@ plugins:
 collections:
   team_members:
     output: true
+    order:
+      - schreiber.md
+      - krause.md
+      - hotho.md
+      - andrzej.md
+      - farzad.md
+      - maxim.md
   keynote_speakers:
     output: true
 # Exclude from processing.

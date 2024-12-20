@@ -6,10 +6,9 @@
     </div>
 
 
-    <div class="small" style="flex: 0 0 320px; margin-left: 32px">
-        <p><span style="font-weight: bold">Address :</span> {{page.address}}</p>
-        <p><span style="font-weight: bold">Email :</span> {{page.email}}</p>
-        <p><span style="font-weight: bold">Phone : </span> {{page.phone}}</p>
+    <div class="small" style="flex: 0 0 400px; margin-left: 32px">
+        <p><span style="font-weight: bold">Address :</span> <br/>{{page.address | replace: '/', '<br />'}}</p>
+        <p><span style="font-weight: bold">Email :</span> {{page.email | replace: '/', ' '}}</p>
     </div>
 
 </div>

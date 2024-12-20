@@ -1,18 +1,21 @@
 ---
 layout: single
 classes: wide
+title: MSc. Andrzej Dulny
 image_path: /assets/img/6.png
 sidebar:
     - nav: sidebar-navigation
 email: andrzej.dulny[at]uni-wuerzburg.de
-phone: (+49 931)  31 - 81316
-address: Chair of Data Science (Informatik X) University of Würzburg Campus Hubland Nord Emil-Fischer-Straße 50 97074 Würzburg Germany
-title: MSc. Andrzej Dulny
+address:
+    Chair of Data Science (Informatik X) / 
+    University of Würzburg / 
+    Emil-Fischer-Straße 50 / 
+    97074 Würzburg Germany
 ---
 
 {% include team_member_basic_info.html %}
 
-
+## About me
 I have been part of the DMIR Research Group since early 2021, after I received my master's degree in Mathematics at the University of Würzburg.
 Currently pursuing research at Prof. Hotho's research group, I am passionate about leveraging machine learning techniques to predict the evolution of physical systems,
 extract the physical equations governing the system, and enhance simulation methods with machine learning. My work lies at the intersection of machine learning and physics,
