@@ -56,8 +56,8 @@ sidebar-navigation:
         url: /student-assistant-for-spring-school/
       - title: "A new web developer"
         url: /we-have-a-new-web-developer/
-      - title: "Paper submitted to the ISMRM"
-        url: /paper-submitted-at-ismrm/
+#      - title: "Paper submitted to the ISMRM"
+#        url: /paper-submitted-at-ismrm/
       - title: "Our paper in ECML-PKDD 2024"
         url: /our-paper-got-accepted-for-the-Research-track-2024/
       - title: "Compute resources at FAU HPC"
