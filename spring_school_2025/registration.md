@@ -8,7 +8,7 @@ sidebar:
 We are excited to announce that registration for the Spring School 2025 is now open!
 
 <div style="text-align: center; margin-top: 20px;">
-    <a href="https://forms.gle/WKJkQbDHgMDdzbwZ9" style="background-color: #85CDFD; color: white; padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">To the registration form</a>
+    <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/WKJkQbDHgMDdzbwZ9" style="background-color: #85CDFD; color: white; padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">To the registration form</a>
 </div>
 
 ## Selection criteria
