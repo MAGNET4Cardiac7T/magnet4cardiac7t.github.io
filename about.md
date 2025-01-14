@@ -1,5 +1,6 @@
 ---
 layout: single
+
 classes: wide
 title: About the MAGNET4Cardiac7T project
 sidebar:
