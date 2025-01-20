@@ -7,7 +7,7 @@ sidebar:
 ---
 
 Welcome to the official website of the Magnet4Cardiac7t project. 
-We are dedicated to improve the quality and safety of 7T cardiac MRI using physics-informed machine learning
+We are dedicated to improve the quality and safety of 7T cardiac MRI using physics-informed machine learning.
 
 ## Upcoming Event - Spring School 2025
 Join us for the Spring School on *Physics Informed Machine Learning for Medical Sciences* from April 7-11, 2025. [Register Now](https://forms.gle/WKJkQbDHgMDdzbwZ9)
