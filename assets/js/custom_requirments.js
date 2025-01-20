@@ -23,4 +23,11 @@ for(let i = 0; i < side_bar_nav_links.length; i++) {
     };
 }
 
+let sideBarMenuToggleBtn = $('#sidebar-menu-toggle')[0];
+let sideBarNav = $('#sidebar-nav');
 
+let toggleHandler = (e) => {
+    sideBarNav.slideToggle();
+}
+
+sideBarMenuToggleBtn.onclick = toggleHandler;
