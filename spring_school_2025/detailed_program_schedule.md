@@ -13,15 +13,15 @@ sidebar:
         <div class="spring-school-day">
             <h2>{{day.title}}</h2>
             {% for session in day.sessions%}
-                <div class="session-box" style="">
-                    <div class="session-title" style="">
-                        <span>{{session.start_time}} - {{session.end_time}}</span>
-                        <span style="margin-left: 12px">
+                <div class="session-box">
+                    <div class="session-title" style="display: flex">
+                        <div style="flex-shrink: 0">{{session.start_time}} - {{session.end_time}}</div>
+                        <div style="margin-left: 12px">
                             {% if session.title == "Coffee Break" %}
                                 <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee.png' | relative_url}}">
                             {% endif %}
                             {{session.title}}
-                        </span>
+                        </div>
                     </div>
                     <div class="more-information-section" style="">
                         <p style="margin-left: 8px">Details of each session will be announced later</p>
