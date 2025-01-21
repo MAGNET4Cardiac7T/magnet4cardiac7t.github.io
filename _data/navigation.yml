@@ -38,6 +38,7 @@ sidebar-navigation:
       - title: "Contact"
         url: /contact/
   - title: Resources
+    url: /resources/
     children:
       - title: "Our Github"
         url: https://github.com/MAGNET4Cardiac7T
