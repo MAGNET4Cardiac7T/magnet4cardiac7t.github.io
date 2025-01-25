@@ -46,22 +46,22 @@
 
         <li>
           <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Agroup%3A13048006&keywords=magnet4cardiac7t&origin=RICH_QUERY_SUGGESTION&position=0&searchId=85b2101d-eeee-431d-8ff0-c1e3a4446356&sid=_DW&spellCorrectionEnabled=false" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span class="label">LinkedIn</span>
+            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/linkedin.png' | relative_url }}"><span class="label"> LinkedIn</span>
           </a>
         </li>
 
         <li>
           <a href="https://github.com/MAGNET4Cardiac7T" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/github.png' | relative_url }}"><span class="label"> Github</span>
           </a>
         </li>
 
         <li>
           <a href="mailto: magnet4cardiac7t@uni-wuerzburg.de" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i style="margin-left: 2px;" class="fa-solid fa-envelope" aria-hidden="true"></i><span class="label"> Mail</span>
+            <img style="margin-left: 0px; width: 18px; height: 18px;" src="{{'/assets/img/mail.png' | relative_url }}"><span class="label"> Mail</span>
+
           </a>
         </li>
-  </div>
 </div>
 
 </nav>
