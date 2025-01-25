@@ -11,6 +11,15 @@
       {% assign navigation = site.data.navigation[navname] %}
       {% for nav in navigation %}
         <li>
+
+          {% if nav.title == 'Blog' %}
+            {% if nav.children.size > 3 %}
+                {% assign showMore = 'true' %}
+            {% endif %}
+          {% else %}
+            {% assign showMore = 'false' %}
+          {% endif %}
+
           {% if nav.url %}
             <a href="{{ nav.url | relative_url }}"><span class="nav__sub-title">{{ nav.title }}</span></a>
           {% else %}
@@ -20,7 +29,23 @@
           {% if nav.children != null %}
           <ul>
             {% for child in nav.children %}
-              <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+
+              {% if showMore == 'true' %}
+                {% if forloop.index <= 3 %}
+                    <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+                {% else %}
+                    <li class="hidden hidden_blog_item"><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+                {% endif %}
+
+                {% if forloop.last %}
+                    <li id="blog_more_link"><a href='#'>Show More</a></li>
+                {% endif %}
+              {% endif %}
+
+             {% if showMore == 'false' %}
+                <li><a href="{{ child.url | relative_url }}"{% if child.url == page.url %} class="active"{% endif %}>{{ child.title }}</a></li>
+             {% endif %}
+
             {% endfor %}
           </ul>
           {% endif %}
