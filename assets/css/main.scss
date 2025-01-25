@@ -5,6 +5,9 @@ search: false
 
 @charset "utf-8";
 
+.sidebar.sticky {
+  overflow-y: unset !important;
+}
 
 .spring-school-grid-menu {
   display: flex;
