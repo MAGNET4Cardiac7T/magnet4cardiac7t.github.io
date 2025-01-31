@@ -27,10 +27,23 @@ for(let i = 0; i < side_bar_nav_links.length; i++) {
 // Req 3: Make the sidebar disappear when clicked on the hamburger button.
 let sideBarMenuToggleBtn = $('#sidebar-menu-toggle')[0];
 let sideBarNav = $('#sidebar-nav');
+let navigationItems = $('.nav__items');
+let sidebarToggled = false;
 
 let toggleHandler = (e) => {
-    sideBarNav.slideToggle();
-}
+
+    if ( navigationItems.css('opacity') == 0 && sidebarToggled == false ) {
+        navigationItems.css('max-height', 'max-content');
+        navigationItems.css('opacity', '100');
+    }
+    else {
+        sideBarNav.slideToggle();
+    }
+
+    sidebarToggled = !sidebarToggled;
+
+};
+
 
 sideBarMenuToggleBtn.onclick = toggleHandler;
 

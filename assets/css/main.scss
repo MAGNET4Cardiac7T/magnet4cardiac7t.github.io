@@ -90,5 +90,22 @@ search: false
   padding : 4px !important;
 }
 
+//.nav__list .nav__items {
+//  margin: 0;
+//  font-size: 1.25rem;
+//  max-height: max-content !important;
+//  opacity: 100% !important;
+//
+//  a {
+//    color: inherit;
+//  }
+//
+//  .active {
+//    margin-inline-start: -0.5em;
+//    padding-inline: 0.5em;
+//    font-weight: bold;
+//  }
+//}
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

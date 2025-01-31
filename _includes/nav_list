@@ -5,8 +5,9 @@
 <nav id="sidebar-nav" class="nav__list">
   {% if page.sidebar.title %}<h3 class="nav__title" style="padding-left: 0;">{{ page.sidebar.title }}</h3>{% endif %}
   <input id="ac-toc" name="accordion-toc" type="checkbox" />
-  <label for="ac-toc">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</label>
+
   <ul class="nav__items">
+
     {% for navname in include.nav %}
       {% assign navigation = site.data.navigation[navname] %}
       {% for nav in navigation %}
@@ -57,37 +58,45 @@
   <div style="margin-top: 16px;" itemscope itemtype="https://schema.org/Person" class="h-card">
 
   <div class="author__urls-wrapper">
-        <li>
-          <a href="https://www.informatik.uni-wuerzburg.de/datascience/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/lsx-favicon.png' | relative_url }}"><span class="label"> AI Team</span>
-          </a>
-        </li>
+         <ul class="nav__items" style="font-size: 20px">
+            <li>
+              <a href="https://www.informatik.uni-wuerzburg.de/datascience/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/lsx-favicon.png' | relative_url }}"><span class="label"> AI Team</span>
+              </a>
+            </li>
 
-        <li>
-          <a href="https://www.ukw.de/behandlungszentren/dzhi/startseite/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/ukw-favicon.png' | relative_url }}"><span class="label"> DZHI</span>
-          </a>
-        </li>
+            <li>
+              <a href="https://www.ukw.de/behandlungszentren/dzhi/startseite/" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/ukw-favicon.png' | relative_url }}"><span class="label"> DZHI</span>
+              </a>
+            </li>
 
-        <li>
-          <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Agroup%3A13048006&keywords=magnet4cardiac7t&origin=RICH_QUERY_SUGGESTION&position=0&searchId=85b2101d-eeee-431d-8ff0-c1e3a4446356&sid=_DW&spellCorrectionEnabled=false" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/linkedin.png' | relative_url }}"><span class="label"> LinkedIn</span>
-          </a>
-        </li>
+            <li>
+              <a href="https://www.linkedin.com/search/results/all/?fetchDeterministicClustersOnly=false&heroEntityKey=urn%3Ali%3Agroup%3A13048006&keywords=magnet4cardiac7t&origin=RICH_QUERY_SUGGESTION&position=0&searchId=85b2101d-eeee-431d-8ff0-c1e3a4446356&sid=_DW&spellCorrectionEnabled=false" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/linkedin.png' | relative_url }}"><span class="label"> LinkedIn</span>
+              </a>
+            </li>
 
-        <li>
-          <a href="https://github.com/MAGNET4Cardiac7T" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/github.png' | relative_url }}"><span class="label"> Github</span>
-          </a>
-        </li>
+            <li>
+              <a href="https://github.com/MAGNET4Cardiac7T" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <img style="margin-left: 2px; width: 16px; height: 16px;" src="{{'/assets/img/github.png' | relative_url }}"><span class="label"> Github</span>
+              </a>
+            </li>
 
-        <li>
-          <a href="mailto: magnet4cardiac7t@uni-wuerzburg.de" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <img style="margin-left: 0px; width: 18px; height: 18px;" src="{{'/assets/img/mail.png' | relative_url }}"><span class="label"> Mail</span>
+            <li>
+              <a href="mailto: magnet4cardiac7t@uni-wuerzburg.de" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+                <img style="margin-left: 0px; width: 18px; height: 18px;" src="{{'/assets/img/mail.png' | relative_url }}"><span class="label"> Mail</span>
+              </a>
+            </li>
 
-          </a>
-        </li>
-</div>
+        </ul>
+
+        </div>
+
+
+    </div>
+
+
 
 </nav>
 
