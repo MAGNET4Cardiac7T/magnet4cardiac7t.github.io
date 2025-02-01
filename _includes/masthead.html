@@ -3,7 +3,13 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
+
       <nav id="site-nav" class="greedy-nav">
+
+        <a id="sidebar-menu-toggle" style="cursor: pointer; margin-right: 64px; margin-left: 16px">
+          <img width="24px" src="{{'/assets/img/bars-solid.svg' | relative_url }}">
+        </a>
+
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
