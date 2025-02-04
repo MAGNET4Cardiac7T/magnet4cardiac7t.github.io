@@ -23,11 +23,50 @@ for(let i = 0; i < side_bar_nav_links.length; i++) {
     };
 }
 
+
+// Req 3: Make the sidebar disappear when clicked on the hamburger button.
 let sideBarMenuToggleBtn = $('#sidebar-menu-toggle')[0];
 let sideBarNav = $('#sidebar-nav');
+let navigationItems = $('.nav__items');
+let sidebarToggled = false;
 
 let toggleHandler = (e) => {
-    sideBarNav.slideToggle();
-}
+
+    if ( navigationItems.css('opacity') == 0 && sidebarToggled == false ) {
+        navigationItems.css('max-height', 'max-content');
+        navigationItems.css('opacity', '100');
+    }
+    else {
+        sideBarNav.slideToggle();
+    }
+
+    sidebarToggled = !sidebarToggled;
+
+};
+
 
 sideBarMenuToggleBtn.onclick = toggleHandler;
+
+
+// Req 4: Hide/unhide more blog items if clicked on the "More" link
+
+let hiddenBlogItems = $('.hidden_blog_item');
+let moreLink = $('#blog_more_link')[0];
+let blogItemsVisible = false;
+
+moreLink.onclick = (e) => {
+  for (let i = 0; i < hiddenBlogItems.length; i++){
+      if (!blogItemsVisible){
+          moreLink.innerHTML = 'Show Less'
+          hiddenBlogItems[i].classList.remove('hidden');
+      }
+      else {
+          moreLink.innerHTML = 'Show More'
+          hiddenBlogItems[i].classList.add('hidden');
+      }
+  }
+
+  blogItemsVisible = !blogItemsVisible;
+
+};
+

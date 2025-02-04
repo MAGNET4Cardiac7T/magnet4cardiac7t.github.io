@@ -5,6 +5,9 @@ search: false
 
 @charset "utf-8";
 
+.sidebar.sticky {
+  overflow-y: unset !important;
+}
 
 .spring-school-grid-menu {
   display: flex;
@@ -86,6 +89,7 @@ search: false
 .masthead__inner-wrap {
   padding : 4px !important;
 }
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
