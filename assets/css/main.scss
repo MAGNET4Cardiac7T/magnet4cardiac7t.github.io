@@ -90,6 +90,9 @@ search: false
   padding : 4px !important;
 }
 
+p, div {
+  text-align: justify;
+}
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
