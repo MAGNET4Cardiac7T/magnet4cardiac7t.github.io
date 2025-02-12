@@ -125,8 +125,3 @@ sidebar:
     </div>
 
 </div>
-
-
-
-
-More information will follow.
