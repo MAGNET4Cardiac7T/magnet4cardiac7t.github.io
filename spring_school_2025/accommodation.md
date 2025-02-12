@@ -6,7 +6,7 @@ sidebar:
     nav: sidebar-navigation
 ---
 
-<div style="display: flex; margin-bottom: 128px">
+<div style="display: flex; margin-bottom: 128px; margin-top: 64px">
 
     <div style="font-size: 15px; max-width: 320px; margin-right: 12px">
         <h1>Babelfish</h1>
