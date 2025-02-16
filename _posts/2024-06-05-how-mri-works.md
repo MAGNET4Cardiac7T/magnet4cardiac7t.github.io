@@ -9,7 +9,7 @@ image_path: /assets/img/posts/Spin_Orientations_During_Relaxation.jpg
 Within the MAGNET4Cardiac7T Project we try to simulate what happens inside a 7T MRI Scanner. Read on to learn how MRI technology works in general.
 
 <figure>
-  <img src="{{page.image_path | relative_url}}" width="100%">
+  <img alt="image showing how MRI works" src="{{page.image_path | relative_url}}" width="100%">
   <figcaption>Fig.1 - Diagram of changing magnetization and spin orientations throughout spin-lattice relaxation experiment. <br/>Figure created by Sea438 <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a></figcaption>
 </figure> 
 

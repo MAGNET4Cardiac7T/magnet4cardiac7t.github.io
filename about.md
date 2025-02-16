@@ -1,12 +1,11 @@
 ---
 layout: single
-
 classes: wide
 title: About the MAGNET4Cardiac7T project
 sidebar:
     nav: sidebar-navigation
 ---
-<img alt="/assets/img/logo_magnet.svg" class="align-center" src="{{'/assets/img/logo_magnet.svg' | relative_url }}" style="width: 100%">
+<img alt="/assets/img/logo_magnet.svg" class="align-center" alt="magnet4cardiac project logo" src="{{'/assets/img/logo_magnet.svg' | relative_url }}" style="width: 100%">
 
 ## Motivation
 Heart failure is a common disease with high mortality and is one of the most common causes of death. Magnetic resonance imaging of the heart is an important diagnostic technique for functional diagnosis of heart failure and many other cardiac diseases. heart diseases. Cardiac ultrahigh-field magnetic resonance imaging (UHF MRI) at a field strength of 7 Tesla promises the highest physical sensitivity, the highest spatial resolution and completely new image contrasts. However, a major obstacle to widespread application is the complex distribution of of electromagnetic waves in the patient’s thorax, which has a very negative impact on image quality and also poses the risk of unwanted overheating of the tissue.

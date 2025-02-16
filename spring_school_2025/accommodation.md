@@ -11,7 +11,7 @@ sidebar:
     <div style="display: flex; margin-bottom: 128px">
     
         <div style="margin-right: 12px;">
-            <img style="border-radius: 12px;" src="{{'/assets/img/Lindleinsmühle - collage.jpg' | relative_url}}" width="800px">
+            <img alt="Lindleinsmühle hotel image" style="border-radius: 12px;" src="{{'/assets/img/Lindleinsmühle - collage.jpg' | relative_url}}" width="800px">
         </div>
     
     
@@ -53,7 +53,7 @@ sidebar:
         </div>
         
         <div>
-            <img style="border-radius: 12px;" src="{{'/assets/img/Moxy - collage.jpg' | relative_url}}" width="800px">
+            <img alt="Moxy hotel image" style="border-radius: 12px;" src="{{'/assets/img/Moxy - collage.jpg' | relative_url}}" width="800px">
         </div>
     
     </div>
@@ -63,7 +63,7 @@ sidebar:
     <div style="display: flex; margin-bottom: 128px;">
         
         <div style="margin-right: 12px;">
-            <img style="border-radius: 12px;" src="{{'/assets/img/AC - collage.jpg' | relative_url}}" width="800px">
+            <img alt="AC hotel image" style="border-radius: 12px;" src="{{'/assets/img/AC - collage.jpg' | relative_url}}" width="800px">
         </div>
 
         <div style="font-size: 15px; max-width: 320px;">
@@ -103,7 +103,7 @@ sidebar:
 
 
         <div>
-            <img style="border-radius: 12px;" src="{{'/assets/img/Ghotel - collage.jpg' | relative_url}}" width="800px">
+            <img alt="Ghotel hotel image" style="border-radius: 12px;" src="{{'/assets/img/Ghotel - collage.jpg' | relative_url}}" width="800px">
         </div>
     
     </div>
@@ -112,7 +112,7 @@ sidebar:
     <div style="display: flex; margin-bottom: 128px; margin-top: 64px">
      
         <div style="margin-right: 12px">
-            <img style="border-radius: 40px;" src="{{'/assets/img/Babelfish - collage.jpg' | relative_url}}" width="800px">
+            <img alt="babel fish hostel image" style="border-radius: 40px;" src="{{'/assets/img/Babelfish - collage.jpg' | relative_url}}" width="800px">
         </div>
 
         <div style="font-size: 15px; max-width: 320px;">
@@ -152,7 +152,7 @@ sidebar:
 
 
         <div style="">
-            <img style="border-radius: 12px;" src="{{'/assets/img/Regina - collage.jpg' | relative_url}}" width="800px">
+            <img alt="Regina hotel image" style="border-radius: 12px;" src="{{'/assets/img/Regina - collage.jpg' | relative_url}}" width="800px">
         </div>
     
     </div>
@@ -165,7 +165,7 @@ sidebar:
 
         
         <div style="margin-right: 12px;">
-            <img style="border-radius: 12px;" src="{{'/assets/img/Jugendherberge - collage.jpg' | relative_url}}" width="800px">
+            <img alt="Jugentherberge image" style="border-radius: 12px;" src="{{'/assets/img/Jugendherberge - collage.jpg' | relative_url}}" width="800px">
         </div>
 
         <div style="font-size: 15px; max-width: 320px;">

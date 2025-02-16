@@ -8,7 +8,7 @@ image_path: /assets/img/posts/blank-profile-picture.png
 
 We are happy to announce that Hannah Ebner will be joining our team as a student assistant to help with the organisation of the Spring School!
 
-<img src="{{page.image_path | relative_url }}" width="250px" height="250px">
+<img alt="student assistant for spring school 2025 picture" src="{{page.image_path | relative_url }}" width="250px" height="250px">
 
 ## Hannah Ebner
 We are very happy to welcome Hannah into our team as a student assistant!
