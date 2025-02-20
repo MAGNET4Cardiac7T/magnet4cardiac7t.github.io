@@ -8,7 +8,7 @@ image_path: /assets/img/spring_school_banner.svg
 
 We are happy to announce that the registration for our spring school to be held April 7-11, 2025 in Würzburg, Germany is now open!
 
-<img src="{{page.image_path | relative_url }}" width="100%">
+<img alt="spring school banner image" src="{{page.image_path | relative_url }}" width="100%">
 
 ## Spring School
 

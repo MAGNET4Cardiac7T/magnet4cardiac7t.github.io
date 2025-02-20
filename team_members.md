@@ -6,7 +6,7 @@ sidebar:
 title: Team Members
 ---
 
-<img src="{{'/assets/img/magnet_team.png' | relative_url}}">
+<img alt="Magnet4Cardiac Team image" src="{{'/assets/img/magnet_team.png' | relative_url}}">
 
 <h2>Introduction</h2>
 <p style="margin-top: 12px">

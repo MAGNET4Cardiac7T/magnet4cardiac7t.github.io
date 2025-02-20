@@ -10,7 +10,7 @@ Our team submitted the short manuscript "Prediction of EM Field Distribution in 
 at the annual ISMRM Conference. Keep reading to learn more about our work.
 
 <div>
-    <img src="{{page.image_path | relative_url}}" width="100%">
+    <img alt="farzads ismrm conference picture" src="{{page.image_path | relative_url}}" width="100%">
 </div>
 
 

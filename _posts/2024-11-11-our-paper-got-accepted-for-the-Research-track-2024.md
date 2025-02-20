@@ -9,7 +9,7 @@ image_path: /assets/img/posts/grind.png
 We are happy to announce that our paper "GrINd: Grid Interpolation Network for Scattered Observations" got accepted for the Research Track at ECML-PKDD 2024! 
 In our work we investigate if Fourier Interpolation can improve the prediction accuracy of physical systems in a low-resolution data regime on the Dynabench Benchmark.
 
-<img src="{{page.image_path | relative_url}}">
+<img alt="image representing the working of GrIND paper." src="{{page.image_path | relative_url}}">
 
 ## Abstract
 Predicting the evolution of spatiotemporal physical systems from sparse and scattered observational data poses a significant challenge in various scientific domains. 

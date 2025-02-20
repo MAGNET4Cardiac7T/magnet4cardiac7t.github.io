@@ -8,7 +8,7 @@ image_path: /assets/img/posts/ateeb.jpeg
 
 We are happy to announce that Ateeb Ahmed is joining our team as a student assistant!
 
-<img src="{{page.image_path | relative_url }}" width="250px" height="250px">
+<img alt="team member named ateeb picture" src="{{page.image_path | relative_url }}" width="250px" height="250px">
 
 ## Ateeb Ahmed
 
