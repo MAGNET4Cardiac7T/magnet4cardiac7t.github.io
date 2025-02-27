@@ -10,17 +10,17 @@ If you have any questions contact us at: [magnet4cardiac7t@uni-wuerzburg.de](mai
 
 <!-- modify this form HTML and place wherever you want your form -->
 <form
-  style="font-size: 16px; background: #d1e6f8; border-radius: 12px;"
+  style="font-size: 16px; border-radius: 12px;"
   action="https://formspree.io/f/mwpvnlra"
   method="POST"
 >
   <label>
     Your email:
-    <input type="email" name="email">
+    <input style="border: 1px solid black;" type="email" name="email">
   </label>
   <label>
     Your message:
-    <textarea style="min-height: 200px" name="message"></textarea>
+    <textarea style="min-height: 200px; border: 1px solid black;" name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
   <button class="btn btn--primary" type="submit">Send</button>
