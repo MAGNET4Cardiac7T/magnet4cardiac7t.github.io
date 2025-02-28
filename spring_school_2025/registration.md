@@ -5,11 +5,11 @@ title: Registration
 sidebar:
     nav: sidebar-navigation
 ---
-We are excited to announce that registration for the Spring School 2025 is now open!
+Registration for the spring school is currently closed.
 
-<div style="text-align: center; margin-top: 20px;">
+<!-- <div style="text-align: center; margin-top: 20px;">
     <a target="_blank" rel="noopener noreferrer" href="https://forms.gle/WKJkQbDHgMDdzbwZ9" style="background-color: #85CDFD; color: white; padding: 15px 25px; text-align: center; text-decoration: none; display: inline-block; font-size: 16px; border-radius: 5px;">To the registration form</a>
-</div>
+</div> -->
 
 ## Selection criteria
 
@@ -41,9 +41,9 @@ Additionally, we **recommend** the students to have some experience with at leas
 
 ## Important Dates
 
-| **Registration Opens**         | December 20, 2024 |
-| **Registration Ends**          | February 16, 2025 |
-| **Notification of Acceptance** | February 24, 2025 |
+| **Registration Opens**         | <s>December 20, 2024</s> |
+| **Registration Ends**          | <s>February 16, 2025</s> |
+| **Notification of Acceptance** | <s>February 24, 2025</s> |
 | **Poster Submission**          | March 23, 2025    |
 | **Spring School**              | April 7-11, 2025  |
 
