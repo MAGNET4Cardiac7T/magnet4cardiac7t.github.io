@@ -11,11 +11,12 @@ search: false
 
 .spring-school-grid-menu {
   display: flex;
-  justify-content: space-between;
+  //justify-content: space-between;
   flex-wrap: wrap;
 
   a {
     text-decoration: none !important;
+    margin-right: 8px;
   }
 
 }
