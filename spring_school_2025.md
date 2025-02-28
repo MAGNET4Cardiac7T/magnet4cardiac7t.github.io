@@ -49,9 +49,9 @@ We welcome international students interested in those topics to [register](/spri
 ## Important Dates
 
 | **Registration Opens**         | <s>December 20, 2024</s> |
-| **Registration Ends**          | <s>February 16, 2025</s> February 23, 2025 |
-| **Notification of Acceptance** | February 24, 2025 |
-| **Poster Submission**          | March 23, 2025    |
+| **Registration Ends**          | <s>February 23, 2025</s> |
+| **Notification of Acceptance** | <s>February 24, 2025</s> |
+| **Poster Submission**          | March 23, 2025   |
 | **Spring School**              | April 7-11, 2025  |
 
 *All deadlines expire on 23:59 AoE (UTC-12).
