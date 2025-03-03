@@ -38,7 +38,7 @@
                 {% endif %}
 
                 {% if forloop.last %}
-                    <li id="blog_more_link"><a href='#' style='cursor: pointer'>Show More</a></li>
+                    <li> <a id="blog_more_link" href='#' style='cursor: pointer'>Show More</a> </li>
                 {% endif %}
               {% endif %}
 
