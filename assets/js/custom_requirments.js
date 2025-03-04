@@ -70,3 +70,26 @@ moreLink.onclick = (e) => {
 
 };
 
+
+// Deployment ID: AKfycbwPytHimgitFfUgjYfI3rytATE94LLBCdBXLPJZDCyEu0LrGbqebaeS0itp8AudAwdR
+// Web App URL : https://script.google.com/macros/s/AKfycbwPytHimgitFfUgjYfI3rytATE94LLBCdBXLPJZDCyEu0LrGbqebaeS0itp8AudAwdR/exec
+
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const data = new FormData(event.target);
+  const email = data.get('email');
+  const name = data.get('name');
+  const message = data.get('message');
+
+  const json_data = JSON.stringify({'email': email, 'name': name, 'message': message});
+
+  $.post("https://script.google.com/macros/s/AKfycbyu8ERp-DXzkeiXwugR_z-j3ZNbUGIPRmrXg95RazDqzjDIH4jRyY4JjT_PwIz-QjXv/exec", json_data).done( () => {
+      alert('Thank you. We have recorded your message.');
+  });
+
+}
+
+const form = document.querySelector('form');
+form.addEventListener('submit', handleSubmit);
