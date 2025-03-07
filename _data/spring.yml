@@ -2,6 +2,10 @@ days:
     -   title: "Monday 7th April 2025"
         date: '2025-04-07'
         sessions:
+            -   title: "Pre-registration"
+                start_time: "08:30"
+                end_time: "09:00"
+                color: "$fbc08f"
             -   title: "Welcome Ceremony"
                 start_time: "09:00"
                 end_time: "09:30"
@@ -58,7 +62,7 @@ days:
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
-            -   title: "Hands-on Numerical Simulation + MRI Demo"
+            -   title: "Hands-on Numerical Simulation"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
@@ -70,16 +74,16 @@ days:
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#d7e4bc"
-            -   title: "Evening Program"
-                start_time: "18:00"
-                end_time: "22:00"
-                color: "#d8d9d8"
+#            -   title: "Evening Program"
+#                start_time: "18:00"
+#                end_time: "22:00"
+#                color: "#d8d9d8"
 
 
     -   title: "Wednesday 9th April 2025"
         date: '2025-04-09'
         sessions:
-            -   title: "5T/3T/7T/ULF MRI comparison, safety and other issues"
+            -   title: "1.5T MRI comparison, safety and other issues"
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
@@ -107,10 +111,10 @@ days:
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#fbc08f"
-            -   title: "Evening Program"
-                start_time: "18:00"
-                end_time: "22:00"
-                color: "#d8d9d8"
+#            -   title: "Evening Program"
+#                start_time: "18:00"
+#                end_time: "22:00"
+#                color: "#d8d9d8"
 
 
     -   title: "Thursday 10th April 2025"
@@ -153,7 +157,7 @@ days:
     -   title: "Friday 11th April 2025"
         date: '2025-04-11'
         sessions:
-            -   title: "Tutorial"
+            -   title: "MRI Demo"
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#ffe698"

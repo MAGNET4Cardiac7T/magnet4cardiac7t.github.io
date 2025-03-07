@@ -27,7 +27,7 @@ Please also note that the schedule is preliminary and subject to change.
     "allDaySlot": false,
     "eventMinHeight": "15",
     "slotDuration": "00:15:00",
-    "slotMinTime": "09:00:00",
+    "slotMinTime": "08:30:00",
     "slotMaxTime": "22:00:00",
     "slotLabelInterval": "01:00",
     "eventTextColor": "black",
