@@ -88,8 +88,39 @@ function handleSubmit(event) {
   $.post("https://script.google.com/macros/s/AKfycbyu8ERp-DXzkeiXwugR_z-j3ZNbUGIPRmrXg95RazDqzjDIH4jRyY4JjT_PwIz-QjXv/exec", json_data).done( () => {
       alert('Thank you. We have recorded your message.');
   });
-
 }
 
 const form = document.querySelector('form');
-form.addEventListener('submit', handleSubmit);
+if (form){
+    form.addEventListener('submit', handleSubmit);
+}
+
+
+
+
+
+
+
+const fullCalendarElement = document.querySelector('full-calendar');
+if (fullCalendarElement) {
+
+    const all_events = fullCalendarElement.options.events;
+    const all_events_elements = fullCalendarElement.shadowRoot.querySelectorAll('.fc-event-time');
+    for (let i = 0; i < all_events_elements.length; i++) {
+        all_events_elements[i].parentElement.parentElement.parentElement.href = '/spring_school_2025/detailed_program_schedule/?event_id=' + all_events[i]['id'];
+    }
+}
+
+s = new URLSearchParams(window.location.search)
+if (s.get('event_id')){
+    let event_id = s.get('event_id');
+    const event = $(`[id=${event_id}]`);
+    setTimeout(() => {
+        event[0].scrollIntoView();
+    }, 200);
+}
+
+
+
+
+

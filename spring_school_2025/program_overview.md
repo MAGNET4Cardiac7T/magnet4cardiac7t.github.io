@@ -44,7 +44,8 @@ Please also note that the schedule is preliminary and subject to change.
                     "title": "{{session.title}}",
                     "start": "{{day.date}}T{{session.start_time}}",
                     "end": "{{day.date}}T{{session.end_time}}",
-                    "color": "{{session.color}}"
+                    "color": "{{session.color}}",
+                    "id": "{{session.id}}" 
                 }
                 {% if forloop.last == false %}
                     ,

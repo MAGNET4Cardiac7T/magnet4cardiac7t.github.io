@@ -6,42 +6,52 @@ days:
                 start_time: "08:30"
                 end_time: "09:00"
                 color: "$fbc08f"
+                id: 1
             -   title: "Welcome Ceremony"
                 start_time: "09:00"
                 end_time: "09:30"
                 color: "#fbc08f"
+                id: 2
             -   title: "Keynote"
                 start_time: "09:30"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                id: 3
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                id: 4
             -   title:  "Introduction to PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                id: 5
             -   title:   "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                id: 6
             -   title: "Hands-on PINNs"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                id: 7
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d9"
+                id: 8
             -   title: "Poster Session"
                 start_time: "16:30"
                 end_time: "19:00"
                 color: "#f9c090"
+                id: 9
             -   title: "Evening Program"
                 start_time: "19:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                id: 10
 
     -   title: "Tuesday 8th April 2025"
         date: '2025-04-08'
@@ -50,30 +60,37 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                id: 11
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                id: 12
             -   title: "Basics of Numerical Simulations"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                id: 13
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                id: 14
             -   title: "Hands-on Numerical Simulation"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                id: 15
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                id: 16
             -   title: "Keynote: Prof. Dr. Amedeo Chiribiri"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#d7e4bc"
+                id: 17
 #            -   title: "Evening Program"
 #                start_time: "18:00"
 #                end_time: "22:00"
@@ -87,30 +104,37 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                id: 18
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                id: 19
             -   title: "MAGNET4Cardiac7T Project Overview"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                id: 20
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                id: 21
             -   title: "Hackathon"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                id: 22
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                id: 23
             -   title: "Hackathon"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#fbc08f"
+                id: 24
 #            -   title: "Evening Program"
 #                start_time: "18:00"
 #                end_time: "22:00"
@@ -124,34 +148,42 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                id: 25
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                id: 26
             -   title: "Solving Physical Problems with PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#ffe698"
+                id: 27
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                id: 28
             -   title: "Keynote: Dr. Nicolas Behl"
                 start_time: "14:00"
                 end_time: "15:30"
                 color: "#d7e4bc"
+                id: 29
             -   title: "Coffee Break"
                 start_time: "15:30"
                 end_time: "16:00"
                 color: "#d9d9d8"
+                id: 30
             -   title: "Hackathon"
                 start_time: "16:00"
                 end_time: "18:00"
                 color: "#fbc08f"
+                id: 31
             -   title: "Evening Program"
                 start_time: "18:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                id: 32
 
 
     -   title: "Friday 11th April 2025"
@@ -161,19 +193,24 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#ffe698"
+                id: 33
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                id: 34
             -   title: "Keynote: Dr. Florian Knoll"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#d7e4bc"
+                id: 35
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                id: 36
             -   title: "Wrap-up/Hackathon Results/Feedback for Summer School"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                id: 37
