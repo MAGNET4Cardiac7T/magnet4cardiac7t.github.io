@@ -12,6 +12,8 @@ A detailed schedule with the description of each session will be provided at a l
 
 Please also note that the schedule is preliminary and subject to change.
 
+Click on each event below to know more, and for detailed information about all events please click <a href="/spring_school_2025/detailed_program_schedule">here</a>.
+
 
 <full-calendar shadow style="font-weight: normal; font-size: 16px; color: black;" options='{
     "initialView": "timeGridWeek",
