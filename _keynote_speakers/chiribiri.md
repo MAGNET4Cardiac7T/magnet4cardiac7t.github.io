@@ -8,6 +8,7 @@ title: Prof. Dr. Amedeo Chiribiri
 image_path: /assets/img/amedeo_chiribiri.jpg
 affiliation: King's College London
 topic: Cardiovascular Imaging and Cardiology
+idx: 2
 
 ---
 

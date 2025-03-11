@@ -24,7 +24,21 @@ sidebar:
                         </div>
                     </div>
                     <div class="more-information-section" style="">
-                        <p style="margin-left: 8px">Details of each session will be announced later</p>
+                        
+                        {% if session.description %}
+                            <p style="margin-left: 8px"><span style="font-weight: bold">Content: </span> {{session.description}}</p>
+                        {% else %}
+                            <p style="margin-left: 8px">Details of each session will be announced later</p>
+                        {% endif %}
+                        
+                        {% if session.speaker_idx %}
+                            {% for speaker in site.keynote_speakers %}
+                                {% if speaker.idx == session.speaker_idx %}
+                                    {% assign speaker_profile = speaker %}
+                                {% endif %}
+                            {% endfor %}
+                            <div style="margin-left: 8px;"><span style="font-weight: bold">Speaker: </span> <a href='{{speaker_profile.url}}'> {{speaker_profile.title}}</a></div>
+                        {% endif %}
                     </div>
                 </div>
             {% endfor %}

@@ -9,6 +9,7 @@ image_path: /assets/img/wolfgang.png
 affiliation: Uniklinikum Würzburg (UKW)
 university: Uniklinikum Würzburg (UKW)
 topic: Experimental Radiology and AI in Imaging
+idx: 5
 ---
 
 {% include keynote_speaker_info.html %}

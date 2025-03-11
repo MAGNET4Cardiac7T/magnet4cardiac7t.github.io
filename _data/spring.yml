@@ -7,6 +7,8 @@ days:
                 end_time: "09:00"
                 color: "$fbc08f"
                 id: 1
+                speaker_idx: 4
+                description: 'This talk focuses on numerical computations to determine the heat shock a patient would get while going through an MRI.'
             -   title: "Welcome Ceremony"
                 start_time: "09:00"
                 end_time: "09:30"

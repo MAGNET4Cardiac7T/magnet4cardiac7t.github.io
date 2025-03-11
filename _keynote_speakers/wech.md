@@ -9,6 +9,7 @@ image_path: /assets/img/tobias_wech.png
 affiliation: Uniklinikum Würzburg (UKW)
 university: Uniklinikum Würzburg (UKW)
 topic: Experimental Radiology and AI in Imaging
+idx: 4
 ---
 
 {% include keynote_speaker_info.html %}
