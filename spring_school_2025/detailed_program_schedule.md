@@ -7,15 +7,14 @@ sidebar:
 ---
 
 
-
 <div>
     {% for day in site.data.spring.days %}
         <div class="spring-school-day">
             <h2>{{day.title}}</h2>
             {% for session in day.sessions%}
-                <div class="session-box" id="{{session.id}}">
-                    <div class="session-title" style="display: flex">
-                        <div style="flex-shrink: 0">{{session.start_time}} - {{session.end_time}}</div>
+                <div class="session-box" id="{{session.id}}" style="background-color: {{session.color}}; border-radius: 8px">
+                    <div class="session-title" style="display: flex;">
+                        <div style="flex-shrink: 0; margin-left: 8px;">{{session.start_time}} - {{session.end_time}}</div>
                         <div style="margin-left: 12px">
                             {% if session.title == "Coffee Break" %}
                                 <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee.png' | relative_url}}">
@@ -23,7 +22,8 @@ sidebar:
                             {{session.title}}
                         </div>
                     </div>
-                    <div class="more-information-section" style="">
+
+                    <div class="more-information-section">
                         
                         {% if session.description %}
                             <p style="margin-left: 8px"><span style="font-weight: bold">Content: </span> {{session.description}}</p>
@@ -37,7 +37,7 @@ sidebar:
                                     {% assign speaker_profile = speaker %}
                                 {% endif %}
                             {% endfor %}
-                            <div style="margin-left: 8px;"><span style="font-weight: bold">Speaker: </span> <a href='{{speaker_profile.url}}'> {{speaker_profile.title}}</a></div>
+                            <div style="margin-left: 8px;"><span style="font-weight: bold">Speaker: </span> <a style='color: black;' href='{{speaker_profile.url}}'> {{speaker_profile.title}}</a></div>
                         {% endif %}
                     </div>
                 </div>
