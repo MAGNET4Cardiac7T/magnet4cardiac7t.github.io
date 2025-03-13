@@ -1,3 +1,10 @@
+# speaker to id mapping:
+# behl : 1
+# chiribiri : 2
+# knoll : 3
+# wech : 4
+# wolfgang : 5
+
 days:
     -   title: "Monday 7th April 2025"
         date: '2025-04-07'
@@ -7,7 +14,7 @@ days:
                 end_time: "09:00"
                 color: "#3788d8"
                 id: 1
-                speaker_idx: 4
+                speaker_idx: 4 #
                 description: 'This talk focuses on numerical computations to determine the heat shock a patient would get while going through an MRI.'
             -   title: "Welcome Ceremony"
                 start_time: "09:00"

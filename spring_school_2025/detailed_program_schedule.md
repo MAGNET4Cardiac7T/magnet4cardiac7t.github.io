@@ -12,7 +12,7 @@ sidebar:
         <div class="spring-school-day">
             <h2>{{day.title}}</h2>
             {% for session in day.sessions%}
-                <div class="session-box" id="{{session.id}}" style="background-color: {{session.color}}; border-radius: 8px">
+                <div class="session-box" id="{{session.id}}" style="background-color: {{session.color}}; border-radius: 4px; padding: 6px; border: 1px solid gray;">
                     <div class="session-title" style="display: flex;">
                         <div style="flex-shrink: 0; margin-left: 8px;">{{session.start_time}} - {{session.end_time}}</div>
                         <div style="margin-left: 12px">
