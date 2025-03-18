@@ -108,6 +108,8 @@ days:
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#d7e4bc"
+                external_speaker_idx: 2
+                description: "Artificial intelligence (AI) is transforming cardiology, from automated image analysis to predictive risk modelling and AI-driven decision support. This keynote will explore the current landscape of AI applications in cardiovascular medicine, focusing on its role in cardiac imaging, diagnosis, risk stratification, and personalized therapy. While AI has demonstrated remarkable capabilities—enhancing diagnostic accuracy, improving workflow efficiency, and enabling early disease detection—its real-world deployment faces critical challenges, including bias, interpretability, regulatory constraints, and clinical integration. This talk will bridge the gap between AI research and clinical practice, providing insights into successful applications, ongoing limitations, and the future of AI in cardiovascular medicine. The session will conclude with a discussion on open questions and future research directions to foster collaboration between AI scientists and clinicians."
                 id: 17
 #            -   title: "Evening Program"
 #                start_time: "18:00"
