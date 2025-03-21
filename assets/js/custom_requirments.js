@@ -100,7 +100,7 @@ if (form){
 
 
 
-
+// Requirement: To make calendar events clickable and navigate to the corresponding event details on detailed_program_schedule page.
 const fullCalendarElement = document.querySelector('full-calendar');
 if (fullCalendarElement) {
 
@@ -122,5 +122,48 @@ if (s.get('event_id')){
 
 
 
+const pdfFiles = [
+    // { url: "/assets/posters/test.pdf", name: "Document 1" },
+];
 
+function renderPDF(url, canvasElement) {
+    const loadingTask = pdfjsLib.getDocument(url);
+    loadingTask.promise.then(pdf => {
+        pdf.getPage(1).then(page => {
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+            const context = canvasElement.getContext('2d');
+            canvasElement.height = viewport.height;
+            canvasElement.width = viewport.width;
 
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+}
+
+function loadPDFs() {
+    const grid = document.getElementById("pdf-grid");
+
+    pdfFiles.forEach(file => {
+        const box = document.createElement("div");
+        box.classList.add("pdf-box");
+
+        const canvas = document.createElement("canvas");
+        renderPDF(file.url, canvas);
+
+        const button = document.createElement("button");
+        button.textContent = "Download";
+        button.onclick = () => window.open(file.url, "_blank");
+        button.classList.add("btn","btn-primary");
+
+        box.appendChild(canvas);
+        box.appendChild(button);
+        grid.appendChild(box);
+    });
+}
+
+loadPDFs();

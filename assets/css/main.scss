@@ -97,5 +97,46 @@ p, div {
 }
 
 
+
+
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive wrapping */
+    gap: 20px;
+
+}
+.pdf-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
