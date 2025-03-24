@@ -4,6 +4,7 @@
 # knoll : 3
 # wech : 4
 # wolfgang : 5
+# cecilia : 6
 
 # internal speaker to id mapping:
 # schreiber : 1
@@ -30,6 +31,7 @@ days:
                 end_time: "09:30"
                 color: "#fbc08f"
                 id: 2
+                internal_speaker_idx: 1
             -   title: "Keynote"
                 start_time: "09:30"
                 end_time: "10:30"
@@ -45,6 +47,7 @@ days:
                 end_time: "12:30"
                 color: "#a5b6ca"
                 id: 5
+                external_speaker_idx: 6
             -   title:   "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -54,6 +57,7 @@ days:
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                external_speaker_idx: 6
                 id: 7
             -   title: "Coffee Break"
                 start_time: "16:00"
@@ -79,6 +83,7 @@ days:
                 end_time: "10:30"
                 color: "#a5b6ca"
                 id: 11
+                internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -88,6 +93,7 @@ days:
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                internal_speaker_idx: 5
                 id: 13
             -   title: "Lunch Break"
                 start_time: "12:30"
@@ -99,6 +105,7 @@ days:
                 end_time: "16:00"
                 color: "#ffe698"
                 id: 15
+                internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
@@ -125,6 +132,7 @@ days:
                 end_time: "10:30"
                 color: "#a5b6ca"
                 id: 18
+                internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -134,6 +142,7 @@ days:
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                internal_speaker_idx: 2
                 id: 20
             -   title: "Lunch Break"
                 start_time: "12:30"
@@ -169,6 +178,7 @@ days:
                 end_time: "10:30"
                 color: "#d7e4bc"
                 id: 25
+                description: The presentation focuses on physics-based machine learning for cardiac MRI reconstruction. We'll begin with a brief overview of cardiac MRI, outlining its potential and current challenges. We will then define physics-based machine learning in MR reconstruction, contrasting it with alternative approaches of transforming undersampled acquisitions into high-quality images. A key component of physics-based methods is ensuring data consistency, and we will discuss the critical role of transfer functions in modeling gradient behavior and accurately determining k-space trajectories. We will then explore diffusion probabilistic models, a powerful generative approach that has shown significant promise for physics-based MR reconstruction, and demonstrate its potential for high-quality cardiac MRI.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -179,6 +189,7 @@ days:
                 end_time: "12:30"
                 color: "#ffe698"
                 id: 27
+                internal_speaker_idx: 4
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -189,6 +200,7 @@ days:
                 end_time: "15:30"
                 color: "#d7e4bc"
                 id: 29
+                external_speaker_idx: 1
             -   title: "Coffee Break"
                 start_time: "15:30"
                 end_time: "16:00"
@@ -214,6 +226,7 @@ days:
                 end_time: "10:30"
                 color: "#ffe698"
                 id: 33
+                internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -224,6 +237,30 @@ days:
                 end_time: "12:30"
                 color: "#d7e4bc"
                 id: 35
+                external_speaker_idx: 3
+                description: |
+                      In 2016, machine learning techniques have been first introduced to solve the inverse problem of MR image generation from accelerated acquisitions (1,2,3). 
+                      Since then, the field has grown substantially, and a wide range of machine learning methods have been developed, applied to a wide range of imaging applications 
+                      and already rolled out as clinical products by all major scanner manufacturers.
+                    
+                      In this lecture, I will start with the background of an artificial intelligence process to generate MR images from the acquired measurement data. 
+                      In particular, I will discuss physics informed architectures that map iterative algorithms onto neural networks. 
+                      I will discuss their performance for a range of clinical applications (4,5,6) as well as ongoing challenges related to data availability (7), 
+                      generalizability and validation of the results. I will also include a discussion of the lessons learnt from the recent fastMRI image reconstruction 
+                      challenges organized jointly with Facebook AI research (8).
+                    
+                      <p> References:</p>
+                      <p> 1. Hammernik et al. Learning a variational model for compressed sensing MRI reconstruction. Proc. ISMRM p33 (2016). </p>
+                      <p> 2. Hammernik et al. Learning a Variational Network for Reconstruction of Accelerated MRI Data. MRM, 79:3055-3071 (2018).</p>
+                      <p> 3. Knoll et al. Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction. IEEE Signal Processing Magazine, 37:1:128-40 (2020).</p>
+                      <p> 4. Johnson et al. Deep learning reconstruction enables highly accelerated biparametric MR imaging of the prostate. JMRI 56: 184-195 (2022).</p>
+                      <p> 5. Johnson et al. Deep Learning Reconstruction Enables Prospectively Accelerated Clinical Knee MRI. Radiology 307:e220425 (2023).</p>
+                      <p> 6. Vornehm et al. CineVN: Variational network reconstruction for rapid functional cardiac cine MRI. Magnetic Resonance in Medicine 93:138-150 (2025)</p>
+                      <p> 7. Knoll et al. fastMRI: a publicly available raw k-space and DICOM dataset for accelerated MR image reconstruction using machine learning.
+                         Radiology Artificial Intelligence (2:2020).</p>
+                      <p> 8. Knoll et al. Advancing machine learning for MR image reconstruction with an open competition: Overview of the 2019 fastMRI challenge.
+                         MRM 84 (6), 3054-3070 (2020).</p>
+
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
