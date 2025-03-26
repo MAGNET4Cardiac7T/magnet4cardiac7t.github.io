@@ -5,7 +5,7 @@ permalink: /spring_school_2025/speakers/cecilia
 sidebar:
     - nav: sidebar-navigation
 title: Dr. Cecília Coelho
-image_path: /assets/img/
+image_path: /assets/img/cecilia.png
 affiliation: Institute for Artificial Intelligence, Helmut Schmidt University, Hamburg, Germany and Centre of Mathematics of University of Minho (CMAT), Portugal
 topic: Neural Networks, Scientific Machine Learning, Neural Ordinary Differential Equations, Physics-Informed Neural Networks
 idx: 6
