@@ -10,12 +10,13 @@ sidebar:
 <div>
     {% for day in site.data.spring.days %}
         <div class="spring-school-day">
-            <h2>{{day.title}}</h2>
+            <h2> {{day.title}} </h2>
             {% for session in day.sessions %}
-                <div class="session-box" id="{{session.id}}" style="background-color: {{session.color}}; border-radius: 4px; padding: 6px; border: 1px solid gray;">
-                    <div class="session-title" style="display: flex;">
-                        <div style="flex-shrink: 0; margin-left: 8px;">{{session.start_time}} - {{session.end_time}}</div>
-                        <div style="margin-left: 12px">
+
+                <div class="session-box" id="{{session.id}}">
+                    <div class="session-title" style="background-color: {{session.color}};">
+                        <div style="flex-grow: 1; margin-left: 8px;">{{session.start_time}} - {{session.end_time}}</div>
+                        <div style="flex-grow: 3; margin-left: 12px">
                             {% if session.title == "Coffee Break" %}
                                 <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee.png' | relative_url}}">
                             {% endif %}
@@ -23,7 +24,7 @@ sidebar:
                         </div>
                     </div>
 
-                    <div class="more-information-section">
+                    <div class="more-information-section" style="background-color: {{session.secondary-color}};">
                         {% if session.description %}
                             <p style="margin-left: 8px"><span style="font-weight: bold">Content: </span> {{session.description}}</p>
                         {% else %}

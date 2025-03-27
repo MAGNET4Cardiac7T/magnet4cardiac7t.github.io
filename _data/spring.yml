@@ -22,6 +22,7 @@ days:
                 start_time: "08:30"
                 end_time: "09:00"
                 color: "#3788d8"
+                secondary-color: "#9dceff"
                 id: 1
                 external_speaker_idx: 4 # An event can either have external speaker / internal speaker or both (like in this case)
                 internal_speaker_idx: 4 #
@@ -30,49 +31,58 @@ days:
                 start_time: "09:00"
                 end_time: "09:30"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 2
                 internal_speaker_idx: 1
             -   title: "Keynote"
                 start_time: "09:30"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
                 id: 3
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 4
             -   title:  "Introduction to PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
                 id: 5
                 external_speaker_idx: 6
             -   title:   "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 6
             -   title: "Hands-on PINNs"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
                 external_speaker_idx: 6
                 id: 7
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 8
             -   title: "Poster Session"
                 start_time: "16:30"
                 end_time: "19:00"
                 color: "#f9c090"
+                secondary-color: "#ffe9cc"
                 id: 9
             -   title: "Evening Program"
                 start_time: "19:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                secondary-color: "#f7f8f6"
                 id: 10
 
     -   title: "Tuesday 8th April 2025"
@@ -82,39 +92,46 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
                 id: 11
                 internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 12
             -   title: "Basics of Numerical Simulations"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
                 internal_speaker_idx: 5
                 id: 13
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 14
             -   title: "Hands-on Numerical Simulation"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
                 id: 15
                 internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 16
             -   title: "Keynote: Prof. Dr. Amedeo Chiribiri"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
                 external_speaker_idx: 2
                 description: "Artificial intelligence (AI) is transforming cardiology, from automated image analysis to predictive risk modelling and AI-driven decision support. This keynote will explore the current landscape of AI applications in cardiovascular medicine, focusing on its role in cardiac imaging, diagnosis, risk stratification, and personalized therapy. While AI has demonstrated remarkable capabilities—enhancing diagnostic accuracy, improving workflow efficiency, and enabling early disease detection—its real-world deployment faces critical challenges, including bias, interpretability, regulatory constraints, and clinical integration. This talk will bridge the gap between AI research and clinical practice, providing insights into successful applications, ongoing limitations, and the future of AI in cardiovascular medicine. The session will conclude with a discussion on open questions and future research directions to foster collaboration between AI scientists and clinicians."
                 id: 17
@@ -131,38 +148,45 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
                 id: 18
                 internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 19
             -   title: "MAGNET4Cardiac7T Project Overview"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
                 internal_speaker_idx: 2
                 id: 20
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 21
             -   title: "Hackathon"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 22
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 23
             -   title: "Hackathon"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 24
 #            -   title: "Evening Program"
 #                start_time: "18:00"
@@ -177,44 +201,52 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
                 id: 25
                 description: The presentation focuses on physics-based machine learning for cardiac MRI reconstruction. We'll begin with a brief overview of cardiac MRI, outlining its potential and current challenges. We will then define physics-based machine learning in MR reconstruction, contrasting it with alternative approaches of transforming undersampled acquisitions into high-quality images. A key component of physics-based methods is ensuring data consistency, and we will discuss the critical role of transfer functions in modeling gradient behavior and accurately determining k-space trajectories. We will then explore diffusion probabilistic models, a powerful generative approach that has shown significant promise for physics-based MR reconstruction, and demonstrate its potential for high-quality cardiac MRI.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 26
             -   title: "Solving Physical Problems with PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
                 id: 27
                 internal_speaker_idx: 4
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 28
             -   title: "Keynote: Dr. Nicolas Behl"
                 start_time: "14:00"
                 end_time: "15:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
                 id: 29
                 external_speaker_idx: 1
             -   title: "Coffee Break"
                 start_time: "15:30"
                 end_time: "16:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 30
             -   title: "Hackathon"
                 start_time: "16:00"
                 end_time: "18:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 31
             -   title: "Evening Program"
                 start_time: "18:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                secondary-color: "#f7f8f6"
                 id: 32
 
 
@@ -225,17 +257,20 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
                 id: 33
                 internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
                 id: 34
             -   title: "Keynote: Dr. Florian Knoll"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
                 id: 35
                 external_speaker_idx: 3
                 description: |
@@ -265,9 +300,11 @@ days:
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
                 id: 36
             -   title: "Wrap-up/Hackathon Results/Feedback for Summer School"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 37

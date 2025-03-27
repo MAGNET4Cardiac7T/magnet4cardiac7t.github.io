@@ -56,16 +56,36 @@ search: false
 
 
 .spring-school-day {
+  padding-top: 12px;
+  border-radius: 28px;
+  background: lightgray;
+  margin-bottom: 48px;
+  color: black;
+  font-family: "Open Sans" !important;
+
+  h2 {
+    font-family: "Open Sans" !important;
+    text-align: center; border: none;
+    margin-top: 28px;
+    letter-spacing: 3px;
+    border: none !important;
+  }
+
   .session-box {
-    margin-bottom: 16px;
+    //margin-bottom: 16px;
+
   }
 
   .session-title {
     font-weight: bold;
+    display: flex;
+    font-size: 28px;
+    letter-spacing: 2px;
   }
 
   .more-information-section {
-    border-top: 1px black solid;
+    padding-top: 12px;
+    padding-bottom: 16px
   }
 
 
