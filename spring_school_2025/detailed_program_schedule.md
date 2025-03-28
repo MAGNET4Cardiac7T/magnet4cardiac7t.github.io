@@ -15,10 +15,13 @@ sidebar:
 
                 <div class="session-box" id="{{session.id}}">
                     <div class="session-title" style="background-color: {{session.color}};">
-                        <div style="flex-grow: 1; margin-left: 8px;">{{session.start_time}} - {{session.end_time}}</div>
-                        <div style="flex-grow: 3; margin-left: 12px">
+                        <div style="width: 30%; margin-left: 8px; letter-spacing: 4px;">{{session.start_time}} - {{session.end_time}}</div>
+                        <div style="width: 70%; margin-left: 12px;">
                             {% if session.title == "Coffee Break" %}
-                                <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee.png' | relative_url}}">
+                                <img class="coffee-break" alt="coffee bean image" src="{{'/assets/img/coffee-icon.png' | relative_url}}">
+                            {% endif %}
+                            {% if session.title == "Lunch Break" %}
+                                <img style="margin-top: 2px;" class="coffee-break" alt="plates and forks image" src="{{'/assets/img/lunch-icon.png' | relative_url}}">
                             {% endif %}
                             {{session.title}}
                         </div>
