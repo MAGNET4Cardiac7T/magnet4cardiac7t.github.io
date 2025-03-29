@@ -8,6 +8,7 @@ title: Prof. Dr. Florian Knoll
 image_path: /assets/img/florian_knoll.png
 affiliation: Department Artificial Intelligence in Biomedical Engineering (AIBE)
 topic: Physics Informed Neural Networks for Predicting Physical Systems Behavior
+idx: 3
 ---
 
 

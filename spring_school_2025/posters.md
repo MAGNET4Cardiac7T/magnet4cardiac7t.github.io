@@ -23,3 +23,7 @@ Please make sure that you poster is adjusted to this size
 
 ## Posters
 After the spring school all posters will be posted here.
+
+
+<div class="grid" id="pdf-grid"></div>
+

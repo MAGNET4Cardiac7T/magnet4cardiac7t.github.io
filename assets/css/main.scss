@@ -56,26 +56,41 @@ search: false
 
 
 .spring-school-day {
+  padding-top: 12px;
+  border-radius: 28px;
+  background: lightgray;
+  margin-bottom: 48px;
+  color: black;
+  font-family: "Open Sans" !important;
+
+  h2 {
+    font-family: "Open Sans" !important;
+    text-align: center; border: none;
+    margin-top: 28px;
+    letter-spacing: 3px;
+    border: none !important;
+  }
+
   .session-box {
-    margin-bottom: 16px;
-    background: lightblue;
+    //margin-bottom: 16px;
+
   }
 
   .session-title {
-    margin-left: 8px;
     font-weight: bold;
+    display: flex;
+    font-size: 28px;
+    letter-spacing: 2px;
   }
 
   .more-information-section {
-    font-weight: lighter;
-    background: #f39e9e;
-    border: white 1px solid;
-    border-radius: 0px 0px 6px 6px;
+    padding-top: 12px;
+    padding-bottom: 16px
   }
 
 
   .coffee-break {
-    width: 24px;
+    width: 32px;
     margin-right: 8px;
     vertical-align: text-top;
   }
@@ -100,6 +115,47 @@ p, div {
     margin: 2px 2px !important;
   }
 }
+
+
+
+
+.grid {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive wrapping */
+    gap: 20px;
+
+}
+.pdf-box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+canvas {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin

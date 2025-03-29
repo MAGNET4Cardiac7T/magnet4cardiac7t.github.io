@@ -1,43 +1,89 @@
+# external speaker to id mapping:
+# behl : 1
+# chiribiri : 2
+# knoll : 3
+# wech : 4
+# wolfgang : 5
+# cecilia : 6
+
+# internal speaker to id mapping:
+# schreiber : 1
+# krause : 2
+# hotho : 3
+# dulny : 4
+# jabbarigargari: 5
+# terekhov : 6
+
 days:
     -   title: "Monday 7th April 2025"
         date: '2025-04-07'
         sessions:
+            -   title: "Pre-registration"
+                start_time: "08:30"
+                end_time: "09:00"
+                color: "#3788d8"
+                secondary-color: "#9dceff"
+                id: 1
+                external_speaker_idx: 4 # An event can either have external speaker / internal speaker or both (like in this case)
+                internal_speaker_idx: 4 #
+                description: 'This talk focuses on numerical computations to determine the heat shock a patient would get while going through an MRI.'
             -   title: "Welcome Ceremony"
                 start_time: "09:00"
                 end_time: "09:30"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
+                id: 2
+                internal_speaker_idx: 1
             -   title: "Keynote"
                 start_time: "09:30"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
+                id: 3
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 4
             -   title:  "Introduction to PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
+                id: 5
+                external_speaker_idx: 6
             -   title:   "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
+                id: 6
             -   title: "Hands-on PINNs"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
+                external_speaker_idx: 6
+                id: 7
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
+                id: 8
             -   title: "Poster Session"
                 start_time: "16:30"
                 end_time: "19:00"
                 color: "#f9c090"
+                secondary-color: "#ffe9cc"
+                id: 9
             -   title: "Evening Program"
                 start_time: "19:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                secondary-color: "#f7f8f6"
+                id: 10
 
     -   title: "Tuesday 8th April 2025"
         date: '2025-04-08'
@@ -46,71 +92,106 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
+                id: 11
+                internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 12
             -   title: "Basics of Numerical Simulations"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
+                internal_speaker_idx: 5
+                id: 13
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
-            -   title: "Hands-on Numerical Simulation + MRI Demo"
+                secondary-color: "#f7f8f6"
+                id: 14
+            -   title: "Hands-on Numerical Simulation"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
+                id: 15
+                internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 16
             -   title: "Keynote: Prof. Dr. Amedeo Chiribiri"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#d7e4bc"
-            -   title: "Evening Program"
-                start_time: "18:00"
-                end_time: "22:00"
-                color: "#d8d9d8"
+                secondary-color: "#f1ffe8"
+                external_speaker_idx: 2
+                description: "Artificial intelligence (AI) is transforming cardiology, from automated image analysis to predictive risk modelling and AI-driven decision support. This keynote will explore the current landscape of AI applications in cardiovascular medicine, focusing on its role in cardiac imaging, diagnosis, risk stratification, and personalized therapy. While AI has demonstrated remarkable capabilities—enhancing diagnostic accuracy, improving workflow efficiency, and enabling early disease detection—its real-world deployment faces critical challenges, including bias, interpretability, regulatory constraints, and clinical integration. This talk will bridge the gap between AI research and clinical practice, providing insights into successful applications, ongoing limitations, and the future of AI in cardiovascular medicine. The session will conclude with a discussion on open questions and future research directions to foster collaboration between AI scientists and clinicians."
+                id: 17
+#            -   title: "Evening Program"
+#                start_time: "18:00"
+#                end_time: "22:00"
+#                color: "#d8d9d8"
 
 
     -   title: "Wednesday 9th April 2025"
         date: '2025-04-09'
         sessions:
-            -   title: "5T/3T/7T/ULF MRI comparison, safety and other issues"
+            -   title: "1.5T MRI comparison, safety and other issues"
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
+                id: 18
+                internal_speaker_idx: 5
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 19
             -   title: "MAGNET4Cardiac7T Project Overview"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#a5b6ca"
+                secondary-color: "#d7eaff"
+                internal_speaker_idx: 2
+                id: 20
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
+                id: 21
             -   title: "Hackathon"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
+                id: 22
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 23
             -   title: "Hackathon"
                 start_time: "16:30"
                 end_time: "18:00"
                 color: "#fbc08f"
-            -   title: "Evening Program"
-                start_time: "18:00"
-                end_time: "22:00"
-                color: "#d8d9d8"
+                secondary-color: "#ffe9cc"
+                id: 24
+#            -   title: "Evening Program"
+#                start_time: "18:00"
+#                end_time: "22:00"
+#                color: "#d8d9d8"
 
 
     -   title: "Thursday 10th April 2025"
@@ -120,56 +201,110 @@ days:
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
+                id: 25
+                description: The presentation focuses on physics-based machine learning for cardiac MRI reconstruction. We'll begin with a brief overview of cardiac MRI, outlining its potential and current challenges. We will then define physics-based machine learning in MR reconstruction, contrasting it with alternative approaches of transforming undersampled acquisitions into high-quality images. A key component of physics-based methods is ensuring data consistency, and we will discuss the critical role of transfer functions in modeling gradient behavior and accurately determining k-space trajectories. We will then explore diffusion probabilistic models, a powerful generative approach that has shown significant promise for physics-based MR reconstruction, and demonstrate its potential for high-quality cardiac MRI.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 26
             -   title: "Solving Physical Problems with PINNs"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
+                id: 27
+                internal_speaker_idx: 4
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
+                id: 28
             -   title: "Keynote: Dr. Nicolas Behl"
                 start_time: "14:00"
                 end_time: "15:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
+                id: 29
+                external_speaker_idx: 1
             -   title: "Coffee Break"
                 start_time: "15:30"
                 end_time: "16:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 30
             -   title: "Hackathon"
                 start_time: "16:00"
                 end_time: "18:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
+                id: 31
             -   title: "Evening Program"
                 start_time: "18:00"
                 end_time: "22:00"
                 color: "#d8d9d8"
+                secondary-color: "#f7f8f6"
+                id: 32
 
 
     -   title: "Friday 11th April 2025"
         date: '2025-04-11'
         sessions:
-            -   title: "Tutorial"
+            -   title: "MRI Demo"
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#ffe698"
+                secondary-color: "#fff3ce"
+                id: 33
+                internal_speaker_idx: 6
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
                 color: "#d9d9d8"
+                secondary-color: "#f7f8f6"
+                id: 34
             -   title: "Keynote: Dr. Florian Knoll"
                 start_time: "11:00"
                 end_time: "12:30"
                 color: "#d7e4bc"
+                secondary-color: "#f1ffe8"
+                id: 35
+                external_speaker_idx: 3
+                description: |
+                      In 2016, machine learning techniques have been first introduced to solve the inverse problem of MR image generation from accelerated acquisitions (1,2,3). 
+                      Since then, the field has grown substantially, and a wide range of machine learning methods have been developed, applied to a wide range of imaging applications 
+                      and already rolled out as clinical products by all major scanner manufacturers.
+                    
+                      In this lecture, I will start with the background of an artificial intelligence process to generate MR images from the acquired measurement data. 
+                      In particular, I will discuss physics informed architectures that map iterative algorithms onto neural networks. 
+                      I will discuss their performance for a range of clinical applications (4,5,6) as well as ongoing challenges related to data availability (7), 
+                      generalizability and validation of the results. I will also include a discussion of the lessons learnt from the recent fastMRI image reconstruction 
+                      challenges organized jointly with Facebook AI research (8).
+                    
+                      <p> References:</p>
+                      <p> 1. Hammernik et al. Learning a variational model for compressed sensing MRI reconstruction. Proc. ISMRM p33 (2016). </p>
+                      <p> 2. Hammernik et al. Learning a Variational Network for Reconstruction of Accelerated MRI Data. MRM, 79:3055-3071 (2018).</p>
+                      <p> 3. Knoll et al. Deep Learning Methods for Parallel Magnetic Resonance Image Reconstruction. IEEE Signal Processing Magazine, 37:1:128-40 (2020).</p>
+                      <p> 4. Johnson et al. Deep learning reconstruction enables highly accelerated biparametric MR imaging of the prostate. JMRI 56: 184-195 (2022).</p>
+                      <p> 5. Johnson et al. Deep Learning Reconstruction Enables Prospectively Accelerated Clinical Knee MRI. Radiology 307:e220425 (2023).</p>
+                      <p> 6. Vornehm et al. CineVN: Variational network reconstruction for rapid functional cardiac cine MRI. Magnetic Resonance in Medicine 93:138-150 (2025)</p>
+                      <p> 7. Knoll et al. fastMRI: a publicly available raw k-space and DICOM dataset for accelerated MR image reconstruction using machine learning.
+                         Radiology Artificial Intelligence (2:2020).</p>
+                      <p> 8. Knoll et al. Advancing machine learning for MR image reconstruction with an open competition: Overview of the 2019 fastMRI challenge.
+                         MRM 84 (6), 3054-3070 (2020).</p>
+
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
                 color: "#d9d9d9"
+                secondary-color: "#f7f8f6"
+                id: 36
             -   title: "Wrap-up/Hackathon Results/Feedback for Summer School"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
+                secondary-color: "#ffe9cc"
+                id: 37

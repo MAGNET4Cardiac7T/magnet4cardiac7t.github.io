@@ -12,6 +12,8 @@ A detailed schedule with the description of each session will be provided at a l
 
 Please also note that the schedule is preliminary and subject to change.
 
+<p style="color: red">Click on each event below to know more, and for detailed information about all events please click <a href="/spring_school_2025/detailed_program_schedule">here</a>.</p>
+
 
 <full-calendar shadow style="font-weight: normal; font-size: 16px; color: black;" options='{
     "initialView": "timeGridWeek",
@@ -27,7 +29,7 @@ Please also note that the schedule is preliminary and subject to change.
     "allDaySlot": false,
     "eventMinHeight": "15",
     "slotDuration": "00:15:00",
-    "slotMinTime": "09:00:00",
+    "slotMinTime": "08:30:00",
     "slotMaxTime": "22:00:00",
     "slotLabelInterval": "01:00",
     "eventTextColor": "black",
@@ -44,7 +46,8 @@ Please also note that the schedule is preliminary and subject to change.
                     "title": "{{session.title}}",
                     "start": "{{day.date}}T{{session.start_time}}",
                     "end": "{{day.date}}T{{session.end_time}}",
-                    "color": "{{session.color}}"
+                    "color": "{{session.color}}",
+                    "id": "{{session.id}}" 
                 }
                 {% if forloop.last == false %}
                     ,

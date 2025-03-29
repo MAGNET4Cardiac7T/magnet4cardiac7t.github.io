@@ -8,6 +8,7 @@ title: Dr. Nicolas Behl
 image_path: /assets/img/nicolas_behl.jpg
 affiliation: Siemens Healthineers
 topic: Medical Physics in Radiology
+idx: 1
 ---
 
 {% include keynote_speaker_info.html %}

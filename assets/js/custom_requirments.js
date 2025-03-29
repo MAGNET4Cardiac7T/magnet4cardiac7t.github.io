@@ -70,3 +70,100 @@ moreLink.onclick = (e) => {
 
 };
 
+
+// Deployment ID: AKfycbwPytHimgitFfUgjYfI3rytATE94LLBCdBXLPJZDCyEu0LrGbqebaeS0itp8AudAwdR
+// Web App URL : https://script.google.com/macros/s/AKfycbwPytHimgitFfUgjYfI3rytATE94LLBCdBXLPJZDCyEu0LrGbqebaeS0itp8AudAwdR/exec
+
+
+function handleSubmit(event) {
+  event.preventDefault();
+
+  const data = new FormData(event.target);
+  const email = data.get('email');
+  const name = data.get('name');
+  const message = data.get('message');
+
+  const json_data = JSON.stringify({'email': email, 'name': name, 'message': message});
+
+  $.post("https://script.google.com/macros/s/AKfycbyu8ERp-DXzkeiXwugR_z-j3ZNbUGIPRmrXg95RazDqzjDIH4jRyY4JjT_PwIz-QjXv/exec", json_data).done( () => {
+      alert('Thank you. We have recorded your message.');
+  });
+}
+
+const form = document.querySelector('form');
+if (form){
+    form.addEventListener('submit', handleSubmit);
+}
+
+
+
+
+
+
+// Requirement: To make calendar events clickable and navigate to the corresponding event details on detailed_program_schedule page.
+const fullCalendarElement = document.querySelector('full-calendar');
+if (fullCalendarElement) {
+
+    const all_events = fullCalendarElement.options.events;
+    const all_events_elements = fullCalendarElement.shadowRoot.querySelectorAll('.fc-event-time');
+    for (let i = 0; i < all_events_elements.length; i++) {
+        all_events_elements[i].parentElement.parentElement.parentElement.href = '/spring_school_2025/detailed_program_schedule/?event_id=' + all_events[i]['id'];
+    }
+}
+
+s = new URLSearchParams(window.location.search)
+if (s.get('event_id')){
+    let event_id = s.get('event_id');
+    const event = $(`[id=${event_id}]`);
+    setTimeout(() => {
+        event[0].scrollIntoView();
+    }, 200);
+}
+
+
+
+const pdfFiles = [
+    // { url: "/assets/posters/test.pdf", name: "Document 1" },
+];
+
+function renderPDF(url, canvasElement) {
+    const loadingTask = pdfjsLib.getDocument(url);
+    loadingTask.promise.then(pdf => {
+        pdf.getPage(1).then(page => {
+            const scale = 1.5;
+            const viewport = page.getViewport({ scale });
+            const context = canvasElement.getContext('2d');
+            canvasElement.height = viewport.height;
+            canvasElement.width = viewport.width;
+
+            const renderContext = {
+                canvasContext: context,
+                viewport: viewport
+            };
+            page.render(renderContext);
+        });
+    });
+}
+
+function loadPDFs() {
+    const grid = document.getElementById("pdf-grid");
+
+    pdfFiles.forEach(file => {
+        const box = document.createElement("div");
+        box.classList.add("pdf-box");
+
+        const canvas = document.createElement("canvas");
+        renderPDF(file.url, canvas);
+
+        const button = document.createElement("button");
+        button.textContent = "Download";
+        button.onclick = () => window.open(file.url, "_blank");
+        button.classList.add("btn","btn-primary");
+
+        box.appendChild(canvas);
+        box.appendChild(button);
+        grid.appendChild(box);
+    });
+}
+
+loadPDFs();
