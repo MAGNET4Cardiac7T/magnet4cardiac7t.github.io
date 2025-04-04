@@ -24,9 +24,7 @@ days:
                 color: "#3788d8"
                 secondary-color: "#9dceff"
                 id: 1
-                external_speaker_idx: 4 # An event can either have external speaker / internal speaker or both (like in this case)
-                internal_speaker_idx: 4 #
-                description: 'This talk focuses on numerical computations to determine the heat shock a patient would get while going through an MRI.'
+                description: 'Registration for the Spring School will take place in the foyer of the DZHI building. Please make sure to register before the start of the first session.'
             -   title: "Welcome Ceremony"
                 start_time: "09:00"
                 end_time: "09:30"
@@ -34,12 +32,38 @@ days:
                 secondary-color: "#ffe9cc"
                 id: 2
                 internal_speaker_idx: 1
-            -   title: "Keynote"
+            -   title: "Keynote: Prof. Dr. Andreas Maier"
                 start_time: "09:30"
                 end_time: "10:30"
                 color: "#d7e4bc"
                 secondary-color: "#f1ffe8"
                 id: 3
+                external_speaker_idx: 7
+                description: |
+                    Bridging Domain Expertise with AI for Next-Generation MRI: Known
+                    Operators, Low-Field Applications, Contrast Discovery, and Sequence
+                    Programming <br><br>
+
+                    Recent advances in deep learning have enabled the seamless integration
+                    of known operators—such as Fourier transforms and physical forward
+                    models—into neural architectures, greatly enhancing the fidelity and
+                    interpretability of medical image reconstruction. In low-field MRI,
+                    variational networks leverage these operator constraints to stabilise
+                    the iterative reconstruction process, compensating for reduced
+                    signal-to-noise ratios while preserving essential anatomical
+                    information. Furthermore, the paradigm of differentiable MRI
+                    reconstruction opens new horizons in sequence design by allowing the
+                    joint optimization of sampling trajectories in k-space with respect to
+                    specific signal characteristics. Approaches like MRZero permit
+                    model-driven discovery of scanning protocols, reducing the need for
+                    labor-intensive experimentation. Going one step further, the GPT4MR
+                    initiative harnesses generative large language models (e.g., OpenAI o1
+                    or xAI’s Grok) to reason about MRI physics and pulse sequences, offering
+                    intuitive programming support for sequence development. The synergy of
+                    operator-based deep networks, differentiable reconstruction pipelines,
+                    and next-generation language models sets a new direction for innovation
+                    in MRI, promising enhanced image quality, reduced acquisition times, and
+                    unprecedented adaptability in clinical and research settings.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -144,7 +168,7 @@ days:
     -   title: "Wednesday 9th April 2025"
         date: '2025-04-09'
         sessions:
-            -   title: "1.5T MRI comparison, safety and other issues"
+            -   title: "1.5T/3T/7T MRI Comparison, Safety, and Other Issues"
                 start_time: "09:00"
                 end_time: "10:30"
                 color: "#a5b6ca"
@@ -302,7 +326,7 @@ days:
                 color: "#d9d9d9"
                 secondary-color: "#f7f8f6"
                 id: 36
-            -   title: "Wrap-up/Hackathon Results/Feedback for Summer School"
+            -   title: "Wrap-up/Hackathon Results/Feedback for Spring School"
                 start_time: "14:00"
                 end_time: "16:00"
                 color: "#fbc08f"
