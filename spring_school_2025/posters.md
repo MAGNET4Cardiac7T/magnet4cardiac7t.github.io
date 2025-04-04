@@ -21,6 +21,10 @@ All posters should be prepared in a vertical format.
 The posters will be printed in DIN A0 (84,1 x 118,9 cm). 
 Please make sure that you poster is adjusted to this size
 
+***The posters will be presented in two groups. The groups will be divided by surname. In the first group, everyone presents from A to J and in the second group from K to Z.***
+
+
+
 ## Posters
 After the spring school all posters will be posted here.
 
