@@ -77,6 +77,17 @@ days:
                 secondary-color: "#d7eaff"
                 id: 5
                 external_speaker_idx: 6
+                description: |
+                    Lecture: Solving Differential Equations with Neural Networks <br><br>
+
+                    This session provides a comprehensive introduction to differential equations and explores 
+                    how neural networks, particularly Physics-Informed Neural Networks (PINNs), 
+                    can be used as a powerful tool for solving them. 
+                    Designed for both beginners and those with some prior exposure to machine 
+                    learning or differential equations, the lecture combines theory with hands-on 
+                    practice using modern tools. <br><br>
+
+                    Access the materials on <a href="https://github.com/CeciliaCoelho/PINNsTutorialMAGNET4Cardiac7T">GitHub</a> 
             -   title:   "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -90,6 +101,19 @@ days:
                 secondary-color: "#fff3ce"
                 external_speaker_idx: 6
                 id: 7
+                description: |
+                    Tutorial: Solving Differential Equations with Neural Networks <br><br>
+
+                    This session provides a practical introduction to differential equations and explores 
+                    how neural networks, particularly Physics-Informed Neural Networks (PINNs), 
+                    can be used as a powerful tool for solving them. 
+                    Designed for both beginners and those with some prior exposure to machine 
+                    learning or differential equations, the lecture combines theory with hands-on 
+                    practice using modern tools. <br><br>
+
+                    Access the materials on <a href="https://github.com/CeciliaCoelho/PINNsTutorialMAGNET4Cardiac7T">GitHub</a><br><br>
+                    <p>Exercise Sheet:</p>
+                    Get the exercise sheet <a href="https://github.com/CeciliaCoelho/PINNsTutorialMAGNET4Cardiac7T/blob/main/resources/PINNs_tutorial_MAGNET4Cardiac7T.pdf">here</a> 
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
