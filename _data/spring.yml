@@ -143,6 +143,9 @@ days:
                 secondary-color: "#d7eaff"
                 id: 11
                 internal_speaker_idx: 6
+                description: |
+                    In this session we will cover the basics of MRI physics, including the principles of magnetic resonance,
+                    the role of magnetic fields, and the fundamentals of image formation.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -156,6 +159,10 @@ days:
                 secondary-color: "#d7eaff"
                 internal_speaker_idx: 5
                 id: 13
+                description: |
+                    This session will provide an introduction to the basics of numerical simulations, 
+                    including the principles of numerical methods, their applications in MRI, and the 
+                    importance of simulations in advancing MRI technology.
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -169,6 +176,9 @@ days:
                 secondary-color: "#fff3ce"
                 id: 15
                 internal_speaker_idx: 5
+                description: |
+                    This session will provide a hands-on introduction to numerical simulations, 
+                    including practical exercises and examples of how numerical methods are applied in MRI.
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
@@ -199,6 +209,10 @@ days:
                 secondary-color: "#d7eaff"
                 id: 18
                 internal_speaker_idx: 5
+                description: |
+                    This session will provide an overview of the differences between 1.5T, 3T, and 7T MRI systems, 
+                    including their advantages and disadvantages, safety considerations, and other important issues 
+                    related to their use in clinical practice and research.
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -212,6 +226,10 @@ days:
                 secondary-color: "#d7eaff"
                 internal_speaker_idx: 2
                 id: 20
+                description: |
+                    This session will provide an overview of the MAGNET4Cardiac7T project, including its objectives, 
+                    methodology, and expected outcomes. The session will give you a insight into the 
+                    used models and the project's approach to simulating 7T MRI using deep learning techniques.
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -224,6 +242,11 @@ days:
                 color: "#fbc08f"
                 secondary-color: "#ffe9cc"
                 id: 22
+                description: |
+                    The hackathon is an opportunity for participants to work on a specific project or problem related to the topics covered in the Spring School. 
+                    Participants will be divided into teams and will have the chance to collaborate, share ideas, and develop solutions. 
+                    The hackathon will be supervised to answer questions and provide guidance.
+                    Participants are encouraged to bring their own laptops and any materials they may need for the hackathon.
             -   title: "Coffee Break"
                 start_time: "16:00"
                 end_time: "16:30"
@@ -236,10 +259,11 @@ days:
                 color: "#fbc08f"
                 secondary-color: "#ffe9cc"
                 id: 24
-#            -   title: "Evening Program"
-#                start_time: "18:00"
-#                end_time: "22:00"
-#                color: "#d8d9d8"
+                description: |
+                    The hackathon is an opportunity for participants to work on a specific project or problem related to the topics covered in the Spring School. 
+                    Participants will be divided into teams and will have the chance to collaborate, share ideas, and develop solutions. 
+                    The hackathon will be supervised to answer questions and provide guidance.
+                    Participants are encouraged to bring their own laptops and any materials they may need for the hackathon.
 
 
     -   title: "Thursday 10th April 2025"
@@ -252,6 +276,7 @@ days:
                 secondary-color: "#f1ffe8"
                 id: 25
                 description: The presentation focuses on physics-based machine learning for cardiac MRI reconstruction. We'll begin with a brief overview of cardiac MRI, outlining its potential and current challenges. We will then define physics-based machine learning in MR reconstruction, contrasting it with alternative approaches of transforming undersampled acquisitions into high-quality images. A key component of physics-based methods is ensuring data consistency, and we will discuss the critical role of transfer functions in modeling gradient behavior and accurately determining k-space trajectories. We will then explore diffusion probabilistic models, a powerful generative approach that has shown significant promise for physics-based MR reconstruction, and demonstrate its potential for high-quality cardiac MRI.
+                external_speaker_idx: 4
             -   title: "Coffee Break"
                 start_time: "10:30"
                 end_time: "11:00"
@@ -290,6 +315,11 @@ days:
                 color: "#fbc08f"
                 secondary-color: "#ffe9cc"
                 id: 31
+                description: |
+                    The hackathon is an opportunity for participants to work on a specific project or problem related to the topics covered in the Spring School. 
+                    Participants will be divided into teams and will have the chance to collaborate, share ideas, and develop solutions. 
+                    The hackathon will be supervised to answer questions and provide guidance.
+                    Participants are encouraged to bring their own laptops and any materials they may need for the hackathon.
             -   title: "Evening Program"
                 start_time: "18:00"
                 end_time: "22:00"
