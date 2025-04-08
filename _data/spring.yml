@@ -208,7 +208,7 @@ days:
                 color: "#a5b6ca"
                 secondary-color: "#d7eaff"
                 id: 18
-                internal_speaker_idx: 5
+                external_speaker_idx: 5
                 description: |
                     This session will provide an overview of the differences between 1.5T, 3T, and 7T MRI systems, 
                     including their advantages and disadvantages, safety considerations, and other important issues 
