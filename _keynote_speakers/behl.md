@@ -16,4 +16,7 @@ idx: 1
 
 ## About
 
-Dr. Behl works as Global Manager for MRI Systems at Siemens Healthineers in Erlangen, where he plays a key role in the strategic marketing and further development of innovative magnetic resonance imaging solutions.Previously, he was a postdoctoral researcher at the DKFZ (German Cancer Research Centre) in the field of medical physics. <br> A completet list of his publications is available on <a href="https://scholar.google.com/scholar?hl=de&as_sdt=0%2C5&q=dr.+nicolas+behl"> google scholar </a>
+Dr. Nicolas Behl is the product marketing manager for deep learning reconstruction and ultra-high field MRI at Siemens Healthineers. He studied physics in Heidelberg, Germany and London, Ontario, Canada. He did his PhD in medical physics at the German Cancer Research Center in Heidelberg, focusing on image reconstruction for Sodium imaging at 7T. in the following years as a postdoctoral researcher, he proceeded to lead the multinuclear research group at the DKFZ in Heidelberg. Nicolas joined Siemens Healthineers in 2018 in his current position.
+
+
+<br> A completet list of his publications is available on <a href="https://scholar.google.com/scholar?hl=de&as_sdt=0%2C5&q=dr.+nicolas+behl"> google scholar </a>

@@ -287,13 +287,20 @@ days:
                 color: "#d9d9d8"
                 secondary-color: "#f7f8f6"
                 id: 26
-            -   title: "Solving Physical Problems with PINNs"
+            -   title: "Hackathon"
                 start_time: "11:00"
                 end_time: "12:30"
-                color: "#ffe698"
-                secondary-color: "#fff3ce"
+                color: "#fbc08f"
+                secondary-color: "#ffe9cc"
                 id: 27
                 internal_speaker_idx: 4
+                description: |
+                    The hackathon is an opportunity for participants to work on a specific project or problem related to the topics covered in the Spring School. 
+                    Participants will be divided into teams and will have the chance to collaborate, share ideas, and develop solutions. 
+                    The hackathon will be supervised to answer questions and provide guidance.
+                    Participants are encouraged to bring their own laptops and any materials they may need for the hackathon.<br><br>
+
+                    To get started with the hackathon visit the <a href="https://github.com/MAGNET4Cardiac7T/hackathon">GitHub Repository</a>.
             -   title: "Lunch Break"
                 start_time: "12:30"
                 end_time: "14:00"
@@ -307,6 +314,7 @@ days:
                 secondary-color: "#f1ffe8"
                 id: 29
                 external_speaker_idx: 1
+                description: "Fast. Sharp. Informed. - A New Era in MRI"
             -   title: "Coffee Break"
                 start_time: "15:30"
                 end_time: "16:00"
