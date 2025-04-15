@@ -74,6 +74,7 @@ The simulations are taken from our upcoming paper on the topic, which will be pu
 The simulations vary in terms of the number of different objects placed inside the array of dipoles. An example of the geometry can be seen in Figure 3:
 
 **Table 3:** Overview of the simulations used for the hackathon.
+
 | simulation   | description   |
 |:-------------|:--------|
 | sim1        | children_0_tubes_5 |
