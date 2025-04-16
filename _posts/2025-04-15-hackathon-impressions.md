@@ -8,6 +8,8 @@ relative_improvement_sar: /assets/img/posts/hackathon/sar_boxplot.png
 example_geometry: /assets/img/posts/hackathon/example_geometry.png
 ranks_per_simulation: /assets/img/posts/hackathon/ranks_per_simulation.png
 ranks_averaged: /assets/img/posts/hackathon/ranks_averaged.png
+first_place: /assets/img/posts/hackathon/first_place.jpg
+second_place: /assets/img/posts/hackathon/second_place.jpg
 ---
 
 During the Spring School on *Physics Informed Machine Learning for Medical Sciences*, we had the opportunity to host a hackathon where participants could apply their knowledge and skills in a practical setting. The hackathon was a great success, with participants working on a specific problem related to MRI imaging and safety.
@@ -96,6 +98,15 @@ The winning solution was submitted by group 1, which achieved the best average r
 
 <img alt="Average rank of each team" src="{{page.ranks_averaged| relative_url }}" width="100%">
 **Figure 5:** Average rank for each team over all simulations and cost functions.
+<br><br>
+
+The winners and the runner-up teams of the hackathon were awarded with a small gift from the organisational team:
+
+<p float="left">
+  <img alt="Winning team" src="{{page.first_place | relative_url }}"  width="49%" />
+  <img alt="Runner-up team" src="{{page.second_place | relative_url }}"  width="49%" /> 
+</p>
+**Figure 6:** The winning team (left) and the runner-up team (right) of the hackathon challenge during the spring school.
 <br><br>
 
 ## Code availability
